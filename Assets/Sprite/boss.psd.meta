@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -2424553518018739129
-    second: boss_0
+    second: Boss Master
   - first:
       213: -3588229512158965765
-    second: boss_1
+    second: Boss Left
   - first:
       213: -6963195877183015321
-    second: boss_2
+    second: Boss Right
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss_0
+      name: Boss Master
       rect:
         serializedVersion: 2
         x: 34
@@ -121,7 +121,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_1
+      name: Boss Left
       rect:
         serializedVersion: 2
         x: 4
@@ -142,7 +142,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_2
+      name: Boss Right
       rect:
         serializedVersion: 2
         x: 139

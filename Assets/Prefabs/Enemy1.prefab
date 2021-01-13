@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8411061014655368158}
   - component: {fileID: 6981830208805297968}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Gun3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8182551012232714011}
   - component: {fileID: 6640645263585716058}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Gun3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5459435574186893450}
   - component: {fileID: 4574828566483490396}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Gun2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 1489807583346549831}
   - component: {fileID: 1489807583346549830}
   - component: {fileID: -4328158337277523294}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Enemy1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1489807585181974079}
   - component: {fileID: 1489807585181974064}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -397,7 +397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9006980222384483349}
   - component: {fileID: 8298466360159209887}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Gun (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -451,7 +451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 257957213611801125}
   - component: {fileID: 877017741284174024}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Gun3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -505,7 +505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3381546923510367456}
   - component: {fileID: 1788281131702684074}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Gun2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -559,7 +559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3692290704428671493}
   - component: {fileID: 5249278439476343216}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Gun (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -613,7 +613,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6150081317253839518}
   - component: {fileID: 6704221724513667151}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Gun2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

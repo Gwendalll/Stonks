@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6388802197880942553}
   - component: {fileID: 3697754035224421032}
   - component: {fileID: 206091057921810980}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Boss Bras gauche
   m_TagString: Untagged
   m_Icon: {fileID: 0}

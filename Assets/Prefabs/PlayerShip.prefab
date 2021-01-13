@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSource: {fileID: 8611015446355745751, guid: e51a2e2a339f1e74a9b4a35e5e179acd, type: 3}
-  bulletLayer: 8
+  bulletLayer: 9
   frequence: 30
   pattern: 1110
   angularVelocity: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSource: {fileID: 8611015446355745751, guid: e51a2e2a339f1e74a9b4a35e5e179acd, type: 3}
-  bulletLayer: 8
+  bulletLayer: 9
   frequence: 30
   pattern: 1110
   angularVelocity: 0
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 2007810323639185965}
   - component: {fileID: 5874634168995040597}
   m_Layer: 8
-  m_Name: Player
+  m_Name: PlayerShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 116987715b2239c4a89ac44180148197, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: 10
+  velocity: 5
   autoPilot: 0
 --- !u!114 &2007810323639185966
 MonoBehaviour:
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSource: {fileID: 8611015446355745751, guid: e51a2e2a339f1e74a9b4a35e5e179acd, type: 3}
-  bulletLayer: 8
+  bulletLayer: 9
   frequence: 30
   pattern: 1110
   angularVelocity: 0
@@ -503,7 +503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSource: {fileID: 8611015446355745751, guid: e51a2e2a339f1e74a9b4a35e5e179acd, type: 3}
-  bulletLayer: 8
+  bulletLayer: 9
   frequence: 30
   pattern: 1110
   angularVelocity: 0

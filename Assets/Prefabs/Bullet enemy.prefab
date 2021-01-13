@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5472592799207470507}
   - component: {fileID: 5134594735651057732}
   - component: {fileID: 7768220450204717544}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Bullet enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273805351877736948}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.5857954, y: -2.0207124, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

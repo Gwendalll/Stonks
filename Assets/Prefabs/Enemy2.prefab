@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6151028274109145826}
   - component: {fileID: 1910351457626902616}
   - component: {fileID: 5564176137019757067}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Enemy2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -186,4 +186,3 @@ MonoBehaviour:
   explodeOnDestroy: 1
   explodeDelay: 0
   hideClonesInHierarchy: 1
-  audiohurt: {fileID: 0}
