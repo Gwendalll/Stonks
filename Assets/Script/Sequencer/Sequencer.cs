@@ -60,6 +60,11 @@ namespace Sequencer {
         void Update() {
             scroll += velocity * timeScale * Time.deltaTime * Item.timeScale;
             UpdateScrollerPosition();
+#if UNITY_EDITOR
+            if (Input.GetKeyDown(KeyCode.J)) {
+                scroll += 5f;
+            }
+#endif
         }
 
         public Trigger GetTriggerByName(string name) =>
@@ -182,6 +187,14 @@ namespace Sequencer {
                 LabelField("Scroll", EditorStyles.boldLabel);
                 var scrollProp = serializedObject.FindProperty("scroll");
                 PropertyField(scrollProp);
+                GUI.enabled = scrollProp.floatValue != 0f;
+                if (GUILayout.Button("Reset Scroll")) {
+                    scrollProp.floatValue = 0;
+                }
+                GUI.enabled = true;
+                if (GUILayout.Button("Scroll Forward 5 (J)")) {
+                    scrollProp.floatValue += 5;
+                }
                 if (serializedObject.hasModifiedProperties) {
                     scrollProp.floatValue = Mathf.Max(scrollProp.floatValue, 0f);
                     serializedObject.ApplyModifiedProperties();
