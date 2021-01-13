@@ -41,6 +41,7 @@ public class Player : MonoBehaviour {
 
         if (hp == 0) {
             // gameover
+            Debug.Log("Game Over!!!");
             Debug.Break();
         } else {
             StartCoroutine(Respawn());
