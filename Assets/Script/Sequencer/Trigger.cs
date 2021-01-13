@@ -34,7 +34,8 @@ namespace Sequencer {
         public void SetEnabled(bool value) => enabled = value;
 
         public bool IsValid() => sequence != null && sequencer != null;
-        public Vector3 PositionWithOffset => transform.position + transform.right * offset;
+        Vector3 GetScrollDirection() => sequencer?.GetScrollDirection() ?? transform.right;
+        public Vector3 PositionWithOffset => transform.position + GetScrollDirection() * offset;
         public Vector3 GetSequencerPosition() => sequencer?.GetSequencerPosition(PositionWithOffset) ?? Vector3.zero;
         
         public void ResetTrigger() {
@@ -158,7 +159,7 @@ namespace Sequencer {
                         }
                         GUIStyle style = new GUIStyle();
                         style.normal.textColor = Gizmos.color;
-                        Handles.Label(positionWithOffset, label, style);
+                        Handles.Label(transform.position + Vector3.right * 0.2f, label, style);
                     }
                 }
 

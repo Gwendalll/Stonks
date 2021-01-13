@@ -38,7 +38,7 @@ namespace Sequencer {
 
         void DrawRight(float triggerSize) {
             DrawRect(Vector3.right * sequenceLength / 2f, new Vector3(sequenceLength, triggerSize, 0));
-            GizmosAlpha(0.25f);
+            GizmosAlpha(0.1f);
             int max = Mathf.FloorToInt(triggerSize / 2f);
             for (int i = -max; i <= max; i++) {
                 Gizmos.DrawLine(new Vector3(0f, i, 0f), new Vector3(sequenceLength, i, 0f));
@@ -48,7 +48,7 @@ namespace Sequencer {
 
         void DrawLeft(float triggerSize) {
             DrawRect(Vector3.left * sequenceLength / 2f, new Vector3(sequenceLength, triggerSize, 0));
-            GizmosAlpha(0.25f);
+            GizmosAlpha(0.1f);
             int max = Mathf.FloorToInt(triggerSize / 2f);
             for (int i = -max; i <= max; i++) {
                 Gizmos.DrawLine(new Vector3(-sequenceLength, i, 0f), new Vector3(0, i, 0f));
@@ -58,7 +58,7 @@ namespace Sequencer {
 
         void DrawUp(float triggerSize) {
             DrawRect(Vector3.up * sequenceLength / 2f, new Vector3(triggerSize, sequenceLength, 0));
-            GizmosAlpha(0.25f);
+            GizmosAlpha(0.1f);
             int max = Mathf.FloorToInt(triggerSize / 2f);
             for (int i = -max; i <= max; i++) {
                 Gizmos.DrawLine(new Vector3(i, 0f, 0f), new Vector3(i, sequenceLength, 0f));
@@ -68,7 +68,7 @@ namespace Sequencer {
 
         void DrawDown(float triggerSize) {
             DrawRect(Vector3.down * sequenceLength / 2f, new Vector3(triggerSize, sequenceLength, 0));
-            GizmosAlpha(0.25f);
+            GizmosAlpha(0.1f);
             int max = Mathf.FloorToInt(triggerSize / 2f);
             for (int i = -max; i <= max; i++) {
                 Gizmos.DrawLine(new Vector3(i, -sequenceLength, 0f), new Vector3(i, 0f, 0f));

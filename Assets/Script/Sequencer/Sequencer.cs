@@ -72,7 +72,18 @@ namespace Sequencer {
                 sequence.ResetTrigger();
             }
         }
-        public void Jump(Trigger trigger) => Jump(GetScrollPosition(trigger.transform.position).x);
+        public void Jump(Trigger trigger) {
+            switch(direction) {
+                case ScrollDirection.LEFT:
+                case ScrollDirection.RIGHT:
+                Jump(GetScrollPosition(trigger.transform.position).x);
+                break;
+                case ScrollDirection.DOWN:
+                case ScrollDirection.UP:
+                Jump(GetScrollPosition(trigger.transform.position).y);
+                break;
+            }
+        }
         public void Jump(string name) {
 
             var sequenceTrigger = GetTriggerByName(name);
