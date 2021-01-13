@@ -8,7 +8,11 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
 
-        Item otherItem = other.GetComponent<Item>();
+        Item otherItem = 
+            // Tente de récupérer une instance de <Item> directement sur le gameObject associé à "other"
+            other.GetComponent<Item>() 
+            // ou, si null, tente de récupérer une instande de <Item> parmi les parents de "other"
+            ?? other.GetComponentInParent<Item>();
         
         if (otherItem != null) {
             otherItem.SetDamage(damage);

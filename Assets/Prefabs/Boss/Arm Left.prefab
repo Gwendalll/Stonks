@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 1881278218506552791}
   - component: {fileID: 6919346244747149041}
   m_Layer: 10
-  m_Name: Boss Bras droit
+  m_Name: Sprite + Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,7 +158,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6963195877183015321, guid: 449a91b95d375f4409faf4ee54635a49, type: 3}
+  m_Sprite: {fileID: -3588229512158965765, guid: 449a91b95d375f4409faf4ee54635a49, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

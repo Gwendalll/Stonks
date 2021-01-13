@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &39144363638250998
+--- !u!1 &43521100986402152
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3195005444215617680}
-  - component: {fileID: 6140261251349713454}
-  - component: {fileID: 4684459605079299641}
-  m_Layer: 0
+  - component: {fileID: 2058587570839493346}
+  - component: {fileID: 8526232995218191387}
+  - component: {fileID: 2892308331271733238}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3195005444215617680
+--- !u!4 &2058587570839493346
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 39144363638250998}
-  m_LocalRotation: {x: -0, y: -0, z: 0.9864088, w: 0.16430975}
-  m_LocalPosition: {x: -0.6905834, y: 0.2366318, z: 0}
+  m_GameObject: {fileID: 43521100986402152}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7123761, w: 0.7017979}
+  m_LocalPosition: {x: -0.010920421, y: -0.72991836, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 18
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6140261251349713454
+--- !u!114 &8526232995218191387
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 39144363638250998}
+  m_GameObject: {fileID: 43521100986402152}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -55,13 +55,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &4684459605079299641
+--- !u!114 &2892308331271733238
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 39144363638250998}
+  m_GameObject: {fileID: 43521100986402152}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -69,8 +69,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 17
---- !u!1 &179115309993585393
+  index: 28
+--- !u!1 &228266189063016129
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78,177 +78,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1240876834489550220}
-  - component: {fileID: 8150742233988201424}
-  - component: {fileID: 5376802171125202796}
-  m_Layer: 0
+  - component: {fileID: 6267983177965545093}
+  - component: {fileID: 7497299382878583446}
+  - component: {fileID: 5708351274310124241}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1240876834489550220
+--- !u!4 &6267983177965545093
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 179115309993585393}
-  m_LocalRotation: {x: -0, y: -0, z: -0.70250803, w: 0.7116758}
-  m_LocalPosition: {x: 0.009464357, y: -0.7299387, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 30
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8150742233988201424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 179115309993585393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
-  bulletLayer: 11
-  frequence: 3
-  pattern: 1000
-  angularVelocity: 0
-  bulletLifeMax: 90
-  bulletVelocity: 1
-  bulletAngularVelocityZ: 0
-  hideBulletsInHierarchy: 1
-  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
-  gizmoScale: 1
---- !u!114 &5376802171125202796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 179115309993585393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloner: {fileID: 4239528287927477488}
-  source: {fileID: 4284638528639203511}
-  index: 29
---- !u!1 &450031750883477693
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4690216941656213537}
-  - component: {fileID: 1627405460515818923}
-  - component: {fileID: 3280921788508248171}
-  m_Layer: 0
-  m_Name: SuperGun(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4690216941656213537
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 450031750883477693}
-  m_LocalRotation: {x: -0, y: -0, z: 0.799984, w: 0.60002136}
-  m_LocalPosition: {x: -0.20436257, y: 0.7008109, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1627405460515818923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 450031750883477693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
-  bulletLayer: 11
-  frequence: 3
-  pattern: 1000
-  angularVelocity: 0
-  bulletLifeMax: 90
-  bulletVelocity: 1
-  bulletAngularVelocityZ: 0
-  hideBulletsInHierarchy: 1
-  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
-  gizmoScale: 1
---- !u!114 &3280921788508248171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 450031750883477693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloner: {fileID: 4239528287927477488}
-  source: {fileID: 4284638528639203511}
-  index: 11
---- !u!1 &611188400421775926
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4858781349812266942}
-  - component: {fileID: 6878853953692447739}
-  - component: {fileID: 1026370573762430839}
-  m_Layer: 0
-  m_Name: SuperGun(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4858781349812266942
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 611188400421775926}
-  m_LocalRotation: {x: -0, y: -0, z: 0.960015, w: -0.27994874}
-  m_LocalPosition: {x: -0.61557794, y: -0.39238223, z: 0}
+  m_GameObject: {fileID: 228266189063016129}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9570308, w: -0.28998643}
+  m_LocalPosition: {x: -0.6072255, y: -0.40518788, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6878853953692447739
+--- !u!114 &7497299382878583446
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 611188400421775926}
+  m_GameObject: {fileID: 228266189063016129}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -265,13 +125,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &1026370573762430839
+--- !u!114 &5708351274310124241
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 611188400421775926}
+  m_GameObject: {fileID: 228266189063016129}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -280,7 +140,7 @@ MonoBehaviour:
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
   index: 22
---- !u!1 &741982127801893841
+--- !u!1 &466227713797972570
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -288,37 +148,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8174151544397225908}
-  - component: {fileID: 198568400366642154}
-  - component: {fileID: 407226962910400956}
-  m_Layer: 0
+  - component: {fileID: 365306348391067243}
+  - component: {fileID: 9100266075240579686}
+  - component: {fileID: 3745641437646186792}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8174151544397225908
+--- !u!4 &365306348391067243
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 741982127801893841}
-  m_LocalRotation: {x: -0, y: -0, z: 0.9944172, w: 0.10552021}
-  m_LocalPosition: {x: -0.7137436, y: 0.1531994, z: 0}
+  m_GameObject: {fileID: 466227713797972570}
+  m_LocalRotation: {x: -0, y: -0, z: -0.68744975, w: 0.72623193}
+  m_LocalPosition: {x: 0.040022712, y: -0.7289021, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 20
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &198568400366642154
+--- !u!114 &9100266075240579686
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 741982127801893841}
+  m_GameObject: {fileID: 466227713797972570}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -335,13 +195,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &407226962910400956
+--- !u!114 &3745641437646186792
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 741982127801893841}
+  m_GameObject: {fileID: 466227713797972570}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -349,8 +209,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 19
---- !u!1 &767774739863305665
+  index: 29
+--- !u!1 &795802504809139556
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -358,37 +218,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1419537827489617750}
-  - component: {fileID: 2834898938140203854}
-  - component: {fileID: 9219627055473990778}
-  m_Layer: 0
+  - component: {fileID: 9124371195541129214}
+  - component: {fileID: 3765602458913347709}
+  - component: {fileID: 4375490526424796141}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1419537827489617750
+--- !u!4 &9124371195541129214
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 767774739863305665}
-  m_LocalRotation: {x: -0, y: -0, z: 0.9678975, w: -0.2513455}
-  m_LocalPosition: {x: -0.63776517, y: -0.35518387, z: 0}
+  m_GameObject: {fileID: 795802504809139556}
+  m_LocalRotation: {x: -0, y: -0, z: 0.10452847, w: 0.9945219}
+  m_LocalPosition: {x: 0.7140478, y: 0.15177554, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 22
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2834898938140203854
+--- !u!114 &3765602458913347709
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 767774739863305665}
+  m_GameObject: {fileID: 795802504809139556}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -405,13 +265,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &9219627055473990778
+--- !u!114 &4375490526424796141
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 767774739863305665}
+  m_GameObject: {fileID: 795802504809139556}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -419,8 +279,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 21
---- !u!1 &1757272647828055468
+  index: 3
+--- !u!1 &800795569589773639
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -428,37 +288,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3300873192797941178}
-  - component: {fileID: 1839195877036786750}
-  - component: {fileID: 1066187123399233172}
-  m_Layer: 0
+  - component: {fileID: 3831964130247246289}
+  - component: {fileID: 821797016188711166}
+  - component: {fileID: 6983374174538763146}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3300873192797941178
+--- !u!4 &3831964130247246289
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757272647828055468}
-  m_LocalRotation: {x: -0, y: -0, z: 0.029666247, w: 0.9995599}
-  m_LocalPosition: {x: 0.72871506, y: 0.043293655, z: 0}
+  m_GameObject: {fileID: 800795569589773639}
+  m_LocalRotation: {x: -0, y: -0, z: 0.4650628, w: 0.8852777}
+  m_LocalPosition: {x: 0.41422626, y: 0.6010962, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 2
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1839195877036786750
+--- !u!114 &821797016188711166
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757272647828055468}
+  m_GameObject: {fileID: 800795569589773639}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -475,13 +335,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &1066187123399233172
+--- !u!114 &6983374174538763146
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757272647828055468}
+  m_GameObject: {fileID: 800795569589773639}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -489,8 +349,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 1
---- !u!1 &1943025203983020468
+  index: 6
+--- !u!1 &967942190642261082
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -498,37 +358,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3588930835538141975}
-  - component: {fileID: 6196531710097903512}
-  - component: {fileID: 4167188273155450193}
-  m_Layer: 0
+  - component: {fileID: 4107098183467777303}
+  - component: {fileID: 6969558679805051456}
+  - component: {fileID: 2736044224100804372}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3588930835538141975
+--- !u!4 &4107098183467777303
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1943025203983020468}
-  m_LocalRotation: {x: -0, y: -0, z: 0.05930638, w: 0.9982398}
-  m_LocalPosition: {x: 0.72486484, y: 0.0864349, z: 0}
+  m_GameObject: {fileID: 967942190642261082}
+  m_LocalRotation: {x: -0, y: -0, z: 0.97492796, w: -0.22252096}
+  m_LocalPosition: {x: -0.6577073, y: -0.31673515, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 3
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6196531710097903512
+--- !u!114 &6969558679805051456
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1943025203983020468}
+  m_GameObject: {fileID: 967942190642261082}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -545,13 +405,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &4167188273155450193
+--- !u!114 &2736044224100804372
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1943025203983020468}
+  m_GameObject: {fileID: 967942190642261082}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -559,8 +419,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 2
---- !u!1 &1960327635346574147
+  index: 20
+--- !u!1 &1067991212586812122
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -568,37 +428,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224705382914442224}
-  - component: {fileID: 6299274934236291152}
-  - component: {fileID: 918790672836052244}
-  m_Layer: 0
+  - component: {fileID: 589281854459713467}
+  - component: {fileID: 7731525638466278715}
+  - component: {fileID: 3510418839880253623}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &224705382914442224
+--- !u!4 &589281854459713467
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960327635346574147}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7434784, w: 0.66876}
-  m_LocalPosition: {x: -0.07702986, y: -0.72592455, z: 0}
+  m_GameObject: {fileID: 1067991212586812122}
+  m_LocalRotation: {x: -0, y: -0, z: -0.40217593, w: 0.9155624}
+  m_LocalPosition: {x: 0.49385163, y: -0.5375971, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 28
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6299274934236291152
+--- !u!114 &7731525638466278715
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960327635346574147}
+  m_GameObject: {fileID: 1067991212586812122}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -615,13 +475,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &918790672836052244
+--- !u!114 &3510418839880253623
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960327635346574147}
+  m_GameObject: {fileID: 1067991212586812122}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -629,147 +489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 27
---- !u!1 &2175521731313108807
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 991489517768951441}
-  - component: {fileID: 1119300812254545185}
-  - component: {fileID: 1239280971087938307}
-  m_Layer: 0
-  m_Name: SuperGun(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &991489517768951441
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2175521731313108807}
-  m_LocalRotation: {x: -0, y: -0, z: -0.37968665, w: 0.92511517}
-  m_LocalPosition: {x: 0.5195235, y: -0.51283073, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 33
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1119300812254545185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2175521731313108807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
-  bulletLayer: 11
-  frequence: 3
-  pattern: 1000
-  angularVelocity: 0
-  bulletLifeMax: 90
-  bulletVelocity: 1
-  bulletAngularVelocityZ: 0
-  hideBulletsInHierarchy: 1
-  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
-  gizmoScale: 1
---- !u!114 &1239280971087938307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2175521731313108807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloner: {fileID: 4239528287927477488}
-  source: {fileID: 4284638528639203511}
-  index: 32
---- !u!1 &2337438417452720216
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3178309488506970512}
-  - component: {fileID: 5843797348795216097}
-  - component: {fileID: 7663035898843600118}
-  m_Layer: 0
-  m_Name: SuperGun(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3178309488506970512
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2337438417452720216}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7818315, w: 0.6234898}
-  m_LocalPosition: {x: -0.16244034, y: -0.7116974, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 26
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5843797348795216097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2337438417452720216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
-  bulletLayer: 11
-  frequence: 3
-  pattern: 1000
-  angularVelocity: 0
-  bulletLifeMax: 90
-  bulletVelocity: 1
-  bulletAngularVelocityZ: 0
-  hideBulletsInHierarchy: 1
-  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
-  gizmoScale: 1
---- !u!114 &7663035898843600118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2337438417452720216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloner: {fileID: 4239528287927477488}
-  source: {fileID: 4284638528639203511}
-  index: 25
+  index: 31
 --- !u!1 &2885390481020754580
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,7 +500,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6552590510980746058}
   - component: {fileID: 4239528287927477488}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: 'SuperCloner: SuperGun'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -829,7 +549,7 @@ MonoBehaviour:
     count: 5
     radius: 0
     axis: 2
-    arc: 17
+    arc: 20
     offset: 0
   gridOperators: []
   reversedDimensions: 1
@@ -841,41 +561,41 @@ MonoBehaviour:
   sources:
   - {fileID: 4284638528639203511}
   clones:
-  - {fileID: 3717354604038597028}
-  - {fileID: 1066187123399233172}
-  - {fileID: 4167188273155450193}
-  - {fileID: 8828028381168458581}
-  - {fileID: 2236006245615985221}
-  - {fileID: 1101373124729207531}
-  - {fileID: 413636726533339478}
-  - {fileID: 3254205475874863471}
-  - {fileID: 4465582968804706839}
-  - {fileID: 395672059308979754}
-  - {fileID: 5091276470881582664}
-  - {fileID: 3280921788508248171}
-  - {fileID: 5328310262663848160}
-  - {fileID: 8650763097001560692}
-  - {fileID: 6166632315750932048}
-  - {fileID: 7763828266680945681}
-  - {fileID: 2683309081221151583}
-  - {fileID: 4684459605079299641}
-  - {fileID: 982684861984586445}
-  - {fileID: 407226962910400956}
-  - {fileID: 3481234674442751038}
-  - {fileID: 9219627055473990778}
-  - {fileID: 1026370573762430839}
-  - {fileID: 6993322560415190508}
-  - {fileID: 4442323275009790289}
-  - {fileID: 7663035898843600118}
-  - {fileID: 7948342276203823635}
-  - {fileID: 918790672836052244}
-  - {fileID: 4645311931899602692}
-  - {fileID: 5376802171125202796}
-  - {fileID: 3836695677976703784}
-  - {fileID: 887119442340400912}
-  - {fileID: 1239280971087938307}
-  - {fileID: 3343102547276433242}
-  - {fileID: 4717411026835552035}
+  - {fileID: 4197761435237533634}
+  - {fileID: 1253044259497448939}
+  - {fileID: 4374402914934473989}
+  - {fileID: 4375490526424796141}
+  - {fileID: 198949164604156557}
+  - {fileID: 2431499002500557356}
+  - {fileID: 6983374174538763146}
+  - {fileID: 3261773038539193647}
+  - {fileID: 1985301564294527203}
+  - {fileID: 7707543975446922569}
+  - {fileID: 8973834034085712100}
+  - {fileID: 4149225370915453780}
+  - {fileID: 5886501739993090707}
+  - {fileID: 1668335655112831339}
+  - {fileID: 4960430297150435508}
+  - {fileID: 4834911650662531917}
+  - {fileID: 856442721910022436}
+  - {fileID: 6785615107059892531}
+  - {fileID: 4887347989269717715}
+  - {fileID: 7791824664496406912}
+  - {fileID: 2736044224100804372}
+  - {fileID: 5617191947507073430}
+  - {fileID: 5708351274310124241}
+  - {fileID: 6128946119769653486}
+  - {fileID: 1031216509288992952}
+  - {fileID: 7172877196897019863}
+  - {fileID: 8467463857512469198}
+  - {fileID: 5856692939094356053}
+  - {fileID: 2892308331271733238}
+  - {fileID: 3745641437646186792}
+  - {fileID: 6486420556442415080}
+  - {fileID: 3510418839880253623}
+  - {fileID: 7343155117217508655}
+  - {fileID: 5365092298817770707}
+  - {fileID: 7249715380036063854}
   gizmoShowOptions: 0
   gizmoShowPoints: 0
   gizmoShowAxis: 0
@@ -883,7 +603,7 @@ MonoBehaviour:
   gizmoColorA: {r: 1, g: 0.7, b: 0.7, a: 1}
   gizmoColorB: {r: 1, g: 0.1, b: 0.1, a: 1}
   gizmoSortByDistance: 1
---- !u!1 &3003804684545354236
+--- !u!1 &2896935350407733608
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -891,37 +611,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6698868643265452940}
-  - component: {fileID: 2481431839656475044}
-  - component: {fileID: 887119442340400912}
-  m_Layer: 0
+  - component: {fileID: 3265336970713192153}
+  - component: {fileID: 1482107320125270874}
+  - component: {fileID: 7249715380036063854}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6698868643265452940
+--- !u!4 &3265336970713192153
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3003804684545354236}
-  m_LocalRotation: {x: -0, y: -0, z: -0.40696427, w: 0.9134441}
-  m_LocalPosition: {x: 0.48819494, y: -0.5427391, z: 0}
+  m_GameObject: {fileID: 2896935350407733608}
+  m_LocalRotation: {x: -0, y: -0, z: -0.30427042, w: 0.9525857}
+  m_LocalPosition: {x: 0.5948325, y: -0.4231718, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 32
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2481431839656475044
+--- !u!114 &1482107320125270874
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3003804684545354236}
+  m_GameObject: {fileID: 2896935350407733608}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -938,13 +658,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &887119442340400912
+--- !u!114 &7249715380036063854
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3003804684545354236}
+  m_GameObject: {fileID: 2896935350407733608}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -952,8 +672,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 31
---- !u!1 &3464582849606225061
+  index: 34
+--- !u!1 &3018593096974116522
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -961,37 +681,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8309890549224150997}
-  - component: {fileID: 5890019657681860250}
-  - component: {fileID: 7948342276203823635}
-  m_Layer: 0
+  - component: {fileID: 6840275032779145817}
+  - component: {fileID: 3366858220887685949}
+  - component: {fileID: 1985301564294527203}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8309890549224150997
+--- !u!4 &6840275032779145817
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3464582849606225061}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7629908, w: 0.64640945}
-  m_LocalPosition: {x: -0.11994623, y: -0.7200784, z: 0}
+  m_GameObject: {fileID: 3018593096974116522}
+  m_LocalRotation: {x: -0, y: -0, z: 0.5256838, w: 0.8506801}
+  m_LocalPosition: {x: 0.32653862, y: 0.65289557, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 27
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5890019657681860250
+--- !u!114 &3366858220887685949
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3464582849606225061}
+  m_GameObject: {fileID: 3018593096974116522}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -1008,13 +728,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &7948342276203823635
+--- !u!114 &1985301564294527203
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3464582849606225061}
+  m_GameObject: {fileID: 3018593096974116522}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -1022,8 +742,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 26
---- !u!1 &3844944985722541909
+  index: 8
+--- !u!1 &3099180289016015377
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1031,37 +751,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5191664024550089976}
-  - component: {fileID: 1342738604550386523}
-  - component: {fileID: 2683309081221151583}
-  m_Layer: 0
+  - component: {fileID: 2193418262752118765}
+  - component: {fileID: 6092297647624386892}
+  - component: {fileID: 4197761435237533634}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5191664024550089976
+--- !u!4 &2193418262752118765
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3844944985722541909}
-  m_LocalRotation: {x: -0, y: -0, z: 0.9811002, w: 0.19350049}
-  m_LocalPosition: {x: -0.67533404, y: 0.27717128, z: 0}
+  m_GameObject: {fileID: 3099180289016015377}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.73, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 17
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1342738604550386523
+--- !u!114 &6092297647624386892
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3844944985722541909}
+  m_GameObject: {fileID: 3099180289016015377}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -1078,13 +798,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &2683309081221151583
+--- !u!114 &4197761435237533634
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3844944985722541909}
+  m_GameObject: {fileID: 3099180289016015377}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -1092,8 +812,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 16
---- !u!1 &3935158155107333213
+  index: 0
+--- !u!1 &3827632377064292464
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1101,37 +821,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3455354849822895970}
-  - component: {fileID: 7583782507018131172}
-  - component: {fileID: 4645311931899602692}
-  m_Layer: 0
+  - component: {fileID: 9194827550909466253}
+  - component: {fileID: 3489541515716653560}
+  - component: {fileID: 198949164604156557}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3455354849822895970
+--- !u!4 &9194827550909466253
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3935158155107333213}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7233116, w: 0.69052184}
-  m_LocalPosition: {x: -0.033842318, y: -0.72921515, z: 0}
+  m_GameObject: {fileID: 3827632377064292464}
+  m_LocalRotation: {x: -0, y: -0, z: 0.13917309, w: 0.9902681}
+  m_LocalPosition: {x: 0.7017211, y: 0.20121528, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 29
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7583782507018131172
+--- !u!114 &3489541515716653560
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3935158155107333213}
+  m_GameObject: {fileID: 3827632377064292464}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -1148,13 +868,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &4645311931899602692
+--- !u!114 &198949164604156557
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3935158155107333213}
+  m_GameObject: {fileID: 3827632377064292464}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -1162,287 +882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 28
---- !u!1 &4031351413753472093
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6139031305474049115}
-  - component: {fileID: 7312338221801512352}
-  - component: {fileID: 1101373124729207531}
-  m_Layer: 0
-  m_Name: SuperGun(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6139031305474049115
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4031351413753472093}
-  m_LocalRotation: {x: -0, y: -0, z: 0.4338838, w: 0.90096885}
-  m_LocalPosition: {x: 0.45514756, y: 0.570737, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7312338221801512352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4031351413753472093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
-  bulletLayer: 11
-  frequence: 3
-  pattern: 1000
-  angularVelocity: 0
-  bulletLifeMax: 90
-  bulletVelocity: 1
-  bulletAngularVelocityZ: 0
-  hideBulletsInHierarchy: 1
-  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
-  gizmoScale: 1
---- !u!114 &1101373124729207531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4031351413753472093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloner: {fileID: 4239528287927477488}
-  source: {fileID: 4284638528639203511}
-  index: 5
---- !u!1 &4091911093289417041
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6239666223308006725}
-  - component: {fileID: 461586334788331455}
-  - component: {fileID: 413636726533339478}
-  m_Layer: 0
-  m_Name: SuperGun(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6239666223308006725
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4091911093289417041}
-  m_LocalRotation: {x: -0, y: -0, z: 0.46042114, w: 0.8877006}
-  m_LocalPosition: {x: 0.42049807, y: 0.5967256, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &461586334788331455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4091911093289417041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
-  bulletLayer: 11
-  frequence: 3
-  pattern: 1000
-  angularVelocity: 0
-  bulletLifeMax: 90
-  bulletVelocity: 1
-  bulletAngularVelocityZ: 0
-  hideBulletsInHierarchy: 1
-  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
-  gizmoScale: 1
---- !u!114 &413636726533339478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4091911093289417041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloner: {fileID: 4239528287927477488}
-  source: {fileID: 4284638528639203511}
-  index: 6
---- !u!1 &4101068382114397093
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7602447022628838748}
-  - component: {fileID: 7513529239301634870}
-  - component: {fileID: 395672059308979754}
-  m_Layer: 0
-  m_Name: SuperGun(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7602447022628838748
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4101068382114397093}
-  m_LocalRotation: {x: -0, y: -0, z: 0.5375099, w: 0.8432574}
-  m_LocalPosition: {x: 0.30818138, y: 0.6617585, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7513529239301634870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4101068382114397093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
-  bulletLayer: 11
-  frequence: 3
-  pattern: 1000
-  angularVelocity: 0
-  bulletLifeMax: 90
-  bulletVelocity: 1
-  bulletAngularVelocityZ: 0
-  hideBulletsInHierarchy: 1
-  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
-  gizmoScale: 1
---- !u!114 &395672059308979754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4101068382114397093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloner: {fileID: 4239528287927477488}
-  source: {fileID: 4284638528639203511}
-  index: 9
---- !u!1 &4238700061452022133
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7868218778246256676}
-  - component: {fileID: 2381236029763324224}
-  - component: {fileID: 6993322560415190508}
-  m_Layer: 0
-  m_Name: SuperGun(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7868218778246256676
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4238700061452022133}
-  m_LocalRotation: {x: -0, y: -0, z: 0.9512874, w: -0.30830556}
-  m_LocalPosition: {x: -0.59122366, y: -0.42819926, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 24
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2381236029763324224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4238700061452022133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
-  bulletLayer: 11
-  frequence: 3
-  pattern: 1000
-  angularVelocity: 0
-  bulletLifeMax: 90
-  bulletVelocity: 1
-  bulletAngularVelocityZ: 0
-  hideBulletsInHierarchy: 1
-  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
-  gizmoScale: 1
---- !u!114 &6993322560415190508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4238700061452022133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloner: {fileID: 4239528287927477488}
-  source: {fileID: 4284638528639203511}
-  index: 23
+  index: 4
 --- !u!1 &4284638528639203511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1453,7 +893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8484030261972498073}
   - component: {fileID: 312079973731841242}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SuperGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1507,7 +947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1509185956166492054}
   - component: {fileID: 505626833006506690}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Guns
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1526,41 +966,41 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6552590510980746058}
-  - {fileID: 7753505245457104760}
-  - {fileID: 3300873192797941178}
-  - {fileID: 3588930835538141975}
-  - {fileID: 4243596762828030693}
-  - {fileID: 8351510717046242789}
-  - {fileID: 6139031305474049115}
-  - {fileID: 6239666223308006725}
-  - {fileID: 2629345316712352754}
-  - {fileID: 8475699286405958085}
-  - {fileID: 7602447022628838748}
-  - {fileID: 6793975396970522789}
-  - {fileID: 4690216941656213537}
-  - {fileID: 6624264704682744432}
-  - {fileID: 1446439935528028599}
-  - {fileID: 4044687211968111948}
-  - {fileID: 886581900137869197}
-  - {fileID: 5191664024550089976}
-  - {fileID: 3195005444215617680}
-  - {fileID: 4023534972518364576}
-  - {fileID: 8174151544397225908}
-  - {fileID: 7711841917536172592}
-  - {fileID: 1419537827489617750}
-  - {fileID: 4858781349812266942}
-  - {fileID: 7868218778246256676}
-  - {fileID: 5603856996337281222}
-  - {fileID: 3178309488506970512}
-  - {fileID: 8309890549224150997}
-  - {fileID: 224705382914442224}
-  - {fileID: 3455354849822895970}
-  - {fileID: 1240876834489550220}
-  - {fileID: 8987870834288594445}
-  - {fileID: 6698868643265452940}
-  - {fileID: 991489517768951441}
-  - {fileID: 78375464681728043}
-  - {fileID: 8517998835314686980}
+  - {fileID: 2193418262752118765}
+  - {fileID: 3483018377646829533}
+  - {fileID: 4985531300692160589}
+  - {fileID: 9124371195541129214}
+  - {fileID: 9194827550909466253}
+  - {fileID: 5509866888001368764}
+  - {fileID: 3831964130247246289}
+  - {fileID: 8646136705191191464}
+  - {fileID: 6840275032779145817}
+  - {fileID: 6385492830352286325}
+  - {fileID: 4785210399801029604}
+  - {fileID: 6376509520845207611}
+  - {fileID: 4780690046545117632}
+  - {fileID: 212941639332758229}
+  - {fileID: 1570243196188176677}
+  - {fileID: 1715904413596268199}
+  - {fileID: 4338872197683073190}
+  - {fileID: 232111156133178847}
+  - {fileID: 2327425930504809838}
+  - {fileID: 3322901143684963670}
+  - {fileID: 4107098183467777303}
+  - {fileID: 5682296043545624045}
+  - {fileID: 6267983177965545093}
+  - {fileID: 8659328054935533794}
+  - {fileID: 6090137437979713461}
+  - {fileID: 6767284415598401479}
+  - {fileID: 321878027212910682}
+  - {fileID: 7580490275462421364}
+  - {fileID: 2058587570839493346}
+  - {fileID: 365306348391067243}
+  - {fileID: 3308201834329640886}
+  - {fileID: 589281854459713467}
+  - {fileID: 5417396504295962561}
+  - {fileID: 4085540161190100237}
+  - {fileID: 3265336970713192153}
   m_Father: {fileID: 2481115208332440683}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1577,7 +1017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 90
---- !u!1 &4423943283016501957
+--- !u!1 &4307726920387873152
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1585,37 +1025,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8351510717046242789}
-  - component: {fileID: 3323402137720018182}
-  - component: {fileID: 2236006245615985221}
-  m_Layer: 0
+  - component: {fileID: 7580490275462421364}
+  - component: {fileID: 8608844380100022908}
+  - component: {fileID: 5856692939094356053}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8351510717046242789
+--- !u!4 &7580490275462421364
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4423943283016501957}
-  m_LocalRotation: {x: -0, y: -0, z: 0.11840398, w: 0.9929655}
-  m_LocalPosition: {x: 0.70953155, y: 0.17165376, z: 0}
+  m_GameObject: {fileID: 4307726920387873152}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7364345, w: 0.67650884}
+  m_LocalPosition: {x: -0.06181035, y: -0.72737855, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 5
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3323402137720018182
+--- !u!114 &8608844380100022908
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4423943283016501957}
+  m_GameObject: {fileID: 4307726920387873152}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -1632,13 +1072,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &2236006245615985221
+--- !u!114 &5856692939094356053
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4423943283016501957}
+  m_GameObject: {fileID: 4307726920387873152}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -1646,8 +1086,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 4
---- !u!1 &5292215153625190201
+  index: 27
+--- !u!1 &4494539860355628075
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1655,37 +1095,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8475699286405958085}
-  - component: {fileID: 124522237514735193}
-  - component: {fileID: 4465582968804706839}
-  m_Layer: 0
+  - component: {fileID: 232111156133178847}
+  - component: {fileID: 2389088720757914211}
+  - component: {fileID: 6785615107059892531}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8475699286405958085
+--- !u!4 &232111156133178847
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5292215153625190201}
-  m_LocalRotation: {x: -0, y: -0, z: 0.51225704, w: 0.8588322}
-  m_LocalPosition: {x: 0.3468854, y: 0.6423165, z: 0}
+  m_GameObject: {fileID: 4494539860355628075}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9880753, w: 0.15397128}
+  m_LocalPosition: {x: -0.69538754, y: 0.22211741, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 9
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &124522237514735193
+--- !u!114 &2389088720757914211
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5292215153625190201}
+  m_GameObject: {fileID: 4494539860355628075}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -1702,13 +1142,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &4465582968804706839
+--- !u!114 &6785615107059892531
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5292215153625190201}
+  m_GameObject: {fileID: 4494539860355628075}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -1716,7 +1156,217 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 8
+  index: 17
+--- !u!1 &4917396481840766100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3322901143684963670}
+  - component: {fileID: 2399982909847773308}
+  - component: {fileID: 7791824664496406912}
+  m_Layer: 10
+  m_Name: SuperGun(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3322901143684963670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4917396481840766100}
+  m_LocalRotation: {x: -0, y: -0, z: 0.99640894, w: 0.08467157}
+  m_LocalPosition: {x: -0.71953285, y: 0.12317654, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509185956166492054}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2399982909847773308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4917396481840766100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
+  bulletLayer: 11
+  frequence: 3
+  pattern: 1000
+  angularVelocity: 0
+  bulletLifeMax: 90
+  bulletVelocity: 1
+  bulletAngularVelocityZ: 0
+  hideBulletsInHierarchy: 1
+  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
+  gizmoScale: 1
+--- !u!114 &7791824664496406912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4917396481840766100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloner: {fileID: 4239528287927477488}
+  source: {fileID: 4284638528639203511}
+  index: 19
+--- !u!1 &5383115437689643321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4785210399801029604}
+  - component: {fileID: 588201897911697111}
+  - component: {fileID: 8973834034085712100}
+  m_Layer: 10
+  m_Name: SuperGun(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4785210399801029604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383115437689643321}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7818315, w: 0.6234898}
+  m_LocalPosition: {x: -0.1624403, y: 0.7116974, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509185956166492054}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &588201897911697111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383115437689643321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
+  bulletLayer: 11
+  frequence: 3
+  pattern: 1000
+  angularVelocity: 0
+  bulletLifeMax: 90
+  bulletVelocity: 1
+  bulletAngularVelocityZ: 0
+  hideBulletsInHierarchy: 1
+  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
+  gizmoScale: 1
+--- !u!114 &8973834034085712100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383115437689643321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloner: {fileID: 4239528287927477488}
+  source: {fileID: 4284638528639203511}
+  index: 10
+--- !u!1 &5445622450841651898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4780690046545117632}
+  - component: {fileID: 8915927878895034941}
+  - component: {fileID: 5886501739993090707}
+  m_Layer: 10
+  m_Name: SuperGun(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4780690046545117632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5445622450841651898}
+  m_LocalRotation: {x: -0, y: -0, z: 0.82341945, w: 0.5674332}
+  m_LocalPosition: {x: -0.2599086, y: 0.6821639, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509185956166492054}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8915927878895034941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5445622450841651898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
+  bulletLayer: 11
+  frequence: 3
+  pattern: 1000
+  angularVelocity: 0
+  bulletLifeMax: 90
+  bulletVelocity: 1
+  bulletAngularVelocityZ: 0
+  hideBulletsInHierarchy: 1
+  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
+  gizmoScale: 1
+--- !u!114 &5886501739993090707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5445622450841651898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloner: {fileID: 4239528287927477488}
+  source: {fileID: 4284638528639203511}
+  index: 12
 --- !u!1 &5467470158785453789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,7 +1508,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.45
   m_Center: {x: 0.5, y: -0.7, z: 0}
---- !u!1 &7001744703537816767
+--- !u!1 &5620057069172794659
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1866,37 +1516,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 78375464681728043}
-  - component: {fileID: 6623620164033276268}
-  - component: {fileID: 3343102547276433242}
-  m_Layer: 0
+  - component: {fileID: 4985531300692160589}
+  - component: {fileID: 880960958360665931}
+  - component: {fileID: 4374402914934473989}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &78375464681728043
+--- !u!4 &4985531300692160589
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7001744703537816767}
-  m_LocalRotation: {x: -0, y: -0, z: -0.35207486, w: 0.93597186}
-  m_LocalPosition: {x: 0.5490232, y: -0.481117, z: 0}
+  m_GameObject: {fileID: 5620057069172794659}
+  m_LocalRotation: {x: -0, y: -0, z: 0.069756486, w: 0.9975641}
+  m_LocalPosition: {x: 0.7228957, y: 0.10159637, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 34
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6623620164033276268
+--- !u!114 &880960958360665931
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7001744703537816767}
+  m_GameObject: {fileID: 5620057069172794659}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -1913,13 +1563,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &3343102547276433242
+--- !u!114 &4374402914934473989
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7001744703537816767}
+  m_GameObject: {fileID: 5620057069172794659}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -1927,8 +1577,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 33
---- !u!1 &7118648561968686876
+  index: 2
+--- !u!1 &5743652363765279716
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1936,37 +1586,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8987870834288594445}
-  - component: {fileID: 6487669481006226591}
-  - component: {fileID: 3836695677976703784}
-  m_Layer: 0
+  - component: {fileID: 5417396504295962561}
+  - component: {fileID: 7331161766679122768}
+  - component: {fileID: 7343155117217508655}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8987870834288594445
+--- !u!4 &5417396504295962561
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7118648561968686876}
-  m_LocalRotation: {x: -0, y: -0, z: -0.43388355, w: 0.90096897}
-  m_LocalPosition: {x: 0.45514774, y: -0.5707369, z: 0}
+  m_GameObject: {fileID: 5743652363765279716}
+  m_LocalRotation: {x: -0, y: -0, z: -0.36997822, w: 0.92904043}
+  m_LocalPosition: {x: 0.5301495, y: -0.5018382, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 31
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6487669481006226591
+--- !u!114 &7331161766679122768
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7118648561968686876}
+  m_GameObject: {fileID: 5743652363765279716}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -1983,13 +1633,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &3836695677976703784
+--- !u!114 &7343155117217508655
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7118648561968686876}
+  m_GameObject: {fileID: 5743652363765279716}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -1997,8 +1647,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 30
---- !u!1 &7177368178224319290
+  index: 32
+--- !u!1 &5821491100527093962
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2006,37 +1656,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4044687211968111948}
-  - component: {fileID: 5359196177104219117}
-  - component: {fileID: 6166632315750932048}
-  m_Layer: 0
+  - component: {fileID: 8659328054935533794}
+  - component: {fileID: 2662105954247330478}
+  - component: {fileID: 6128946119769653486}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4044687211968111948
+--- !u!4 &8659328054935533794
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7177368178224319290}
-  m_LocalRotation: {x: -0, y: -0, z: 0.85015535, w: 0.526532}
-  m_LocalPosition: {x: -0.3252357, y: 0.65354556, z: 0}
+  m_GameObject: {fileID: 5821491100527093962}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9463274, w: -0.3232097}
+  m_LocalPosition: {x: -0.57748187, y: -0.44655877, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 15
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5359196177104219117
+--- !u!114 &2662105954247330478
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7177368178224319290}
+  m_GameObject: {fileID: 5821491100527093962}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -2053,13 +1703,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &6166632315750932048
+--- !u!114 &6128946119769653486
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7177368178224319290}
+  m_GameObject: {fileID: 5821491100527093962}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -2067,8 +1717,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 14
---- !u!1 &7243080712748278740
+  index: 23
+--- !u!1 &6171012873990238115
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2076,37 +1726,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4023534972518364576}
-  - component: {fileID: 3038126229586499495}
-  - component: {fileID: 982684861984586445}
-  m_Layer: 0
+  - component: {fileID: 6090137437979713461}
+  - component: {fileID: 7728841048388419783}
+  - component: {fileID: 1031216509288992952}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4023534972518364576
+--- !u!4 &6090137437979713461
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7243080712748278740}
-  m_LocalRotation: {x: -0, y: -0, z: 0.9908491, w: 0.13497436}
-  m_LocalPosition: {x: -0.7034016, y: 0.19525929, z: 0}
+  m_GameObject: {fileID: 6171012873990238115}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9344711, w: -0.35603917}
+  m_LocalPosition: {x: -0.5449248, y: -0.48575407, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 19
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3038126229586499495
+--- !u!114 &7728841048388419783
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7243080712748278740}
+  m_GameObject: {fileID: 6171012873990238115}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -2123,13 +1773,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &982684861984586445
+--- !u!114 &1031216509288992952
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7243080712748278740}
+  m_GameObject: {fileID: 6171012873990238115}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -2137,8 +1787,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 18
---- !u!1 &7435874393022376568
+  index: 24
+--- !u!1 &6241080774596568575
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2146,37 +1796,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7753505245457104760}
-  - component: {fileID: 3747337620174441764}
-  - component: {fileID: 3717354604038597028}
-  m_Layer: 0
+  - component: {fileID: 5509866888001368764}
+  - component: {fileID: 5440757182883086726}
+  - component: {fileID: 2431499002500557356}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7753505245457104760
+--- !u!4 &5509866888001368764
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7435874393022376568}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.73, y: 0, z: 0}
+  m_GameObject: {fileID: 6241080774596568575}
+  m_LocalRotation: {x: -0, y: -0, z: 0.4338838, w: 0.90096885}
+  m_LocalPosition: {x: 0.45514756, y: 0.570737, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 1
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3747337620174441764
+--- !u!114 &5440757182883086726
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7435874393022376568}
+  m_GameObject: {fileID: 6241080774596568575}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -2193,13 +1843,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &3717354604038597028
+--- !u!114 &2431499002500557356
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7435874393022376568}
+  m_GameObject: {fileID: 6241080774596568575}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -2207,7 +1857,287 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 0
+  index: 5
+--- !u!1 &6374118033034403885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 212941639332758229}
+  - component: {fileID: 73033692756247492}
+  - component: {fileID: 1668335655112831339}
+  m_Layer: 10
+  m_Name: SuperGun(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &212941639332758229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6374118033034403885}
+  m_LocalRotation: {x: -0, y: -0, z: 0.8427209, w: 0.53835064}
+  m_LocalPosition: {x: -0.3068608, y: 0.6623719, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509185956166492054}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &73033692756247492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6374118033034403885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
+  bulletLayer: 11
+  frequence: 3
+  pattern: 1000
+  angularVelocity: 0
+  bulletLifeMax: 90
+  bulletVelocity: 1
+  bulletAngularVelocityZ: 0
+  hideBulletsInHierarchy: 1
+  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
+  gizmoScale: 1
+--- !u!114 &1668335655112831339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6374118033034403885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloner: {fileID: 4239528287927477488}
+  source: {fileID: 4284638528639203511}
+  index: 13
+--- !u!1 &6392100728190875350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8646136705191191464}
+  - component: {fileID: 4812448763687415214}
+  - component: {fileID: 3261773038539193647}
+  m_Layer: 10
+  m_Name: SuperGun(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8646136705191191464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6392100728190875350}
+  m_LocalRotation: {x: -0, y: -0, z: 0.49567527, w: 0.8685079}
+  m_LocalPosition: {x: 0.37128684, y: 0.6285269, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509185956166492054}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4812448763687415214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6392100728190875350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
+  bulletLayer: 11
+  frequence: 3
+  pattern: 1000
+  angularVelocity: 0
+  bulletLifeMax: 90
+  bulletVelocity: 1
+  bulletAngularVelocityZ: 0
+  hideBulletsInHierarchy: 1
+  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
+  gizmoScale: 1
+--- !u!114 &3261773038539193647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6392100728190875350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloner: {fileID: 4239528287927477488}
+  source: {fileID: 4284638528639203511}
+  index: 7
+--- !u!1 &7193477406592108883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6767284415598401479}
+  - component: {fileID: 305763209768843713}
+  - component: {fileID: 7172877196897019863}
+  m_Layer: 10
+  m_Name: SuperGun(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6767284415598401479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7193477406592108883}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7818315, w: 0.6234898}
+  m_LocalPosition: {x: -0.16244034, y: -0.7116974, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509185956166492054}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &305763209768843713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7193477406592108883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
+  bulletLayer: 11
+  frequence: 3
+  pattern: 1000
+  angularVelocity: 0
+  bulletLifeMax: 90
+  bulletVelocity: 1
+  bulletAngularVelocityZ: 0
+  hideBulletsInHierarchy: 1
+  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
+  gizmoScale: 1
+--- !u!114 &7172877196897019863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7193477406592108883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloner: {fileID: 4239528287927477488}
+  source: {fileID: 4284638528639203511}
+  index: 25
+--- !u!1 &7283044748947413820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5682296043545624045}
+  - component: {fileID: 3590214461273451834}
+  - component: {fileID: 5617191947507073430}
+  m_Layer: 10
+  m_Name: SuperGun(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5682296043545624045
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7283044748947413820}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9665682, w: -0.2564099}
+  m_LocalPosition: {x: -0.63401085, y: -0.36184293, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509185956166492054}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3590214461273451834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7283044748947413820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
+  bulletLayer: 11
+  frequence: 3
+  pattern: 1000
+  angularVelocity: 0
+  bulletLifeMax: 90
+  bulletVelocity: 1
+  bulletAngularVelocityZ: 0
+  hideBulletsInHierarchy: 1
+  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
+  gizmoScale: 1
+--- !u!114 &5617191947507073430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7283044748947413820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloner: {fileID: 4239528287927477488}
+  source: {fileID: 4284638528639203511}
+  index: 21
 --- !u!1 &7486181276038672513
 GameObject:
   m_ObjectHideFlags: 0
@@ -2219,7 +2149,8 @@ GameObject:
   - component: {fileID: 2481115208332440683}
   - component: {fileID: 1988078004628185301}
   - component: {fileID: 6382421326513889365}
-  m_Layer: 0
+  - component: {fileID: 1684457981481096898}
+  m_Layer: 10
   m_Name: Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2256,8 +2187,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeMax: Infinity
   time: 0
-  hpMax: 8000
-  hp: 8000
+  hpMax: 1000
+  hp: 1000
   invincible: 0
   velocity: {x: 0, y: 0, z: 0}
   angularVelocity: {x: 0, y: 0, z: 0}
@@ -2274,7 +2205,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e55466362e32414bb6d7020d3bb2a52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &7487419274288805808
+--- !u!114 &1684457981481096898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7486181276038672513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74c819ec30110d940ba5a0086f8604f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetName: Boss-Loop-End
+  makeActive: 0
+--- !u!1 &7642770236678652958
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2282,37 +2227,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8517998835314686980}
-  - component: {fileID: 6526897592521053714}
-  - component: {fileID: 4717411026835552035}
-  m_Layer: 0
+  - component: {fileID: 3483018377646829533}
+  - component: {fileID: 6281865303951576569}
+  - component: {fileID: 1253044259497448939}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8517998835314686980
+--- !u!4 &3483018377646829533
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7487419274288805808}
-  m_LocalRotation: {x: -0, y: -0, z: -0.32415316, w: 0.9460046}
-  m_LocalPosition: {x: 0.5765901, y: -0.4477096, z: 0}
+  m_GameObject: {fileID: 7642770236678652958}
+  m_LocalRotation: {x: -0, y: -0, z: 0.034899496, w: 0.99939084}
+  m_LocalPosition: {x: 0.7282218, y: 0.050922226, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 35
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6526897592521053714
+--- !u!114 &6281865303951576569
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7487419274288805808}
+  m_GameObject: {fileID: 7642770236678652958}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -2329,13 +2274,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &4717411026835552035
+--- !u!114 &1253044259497448939
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7487419274288805808}
+  m_GameObject: {fileID: 7642770236678652958}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -2343,8 +2288,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 34
---- !u!1 &7697530306655848004
+  index: 1
+--- !u!1 &7679617710885760333
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2352,37 +2297,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7711841917536172592}
-  - component: {fileID: 1760057834419288745}
-  - component: {fileID: 3481234674442751038}
-  m_Layer: 0
+  - component: {fileID: 2327425930504809838}
+  - component: {fileID: 395023617092926596}
+  - component: {fileID: 4887347989269717715}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7711841917536172592
+--- !u!4 &2327425930504809838
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7697530306655848004}
-  m_LocalRotation: {x: -0, y: -0, z: 0.97492796, w: -0.22252096}
-  m_LocalPosition: {x: -0.6577073, y: -0.31673515, z: 0}
+  m_GameObject: {fileID: 7679617710885760333}
+  m_LocalRotation: {x: -0, y: -0, z: 0.99284697, w: 0.11939416}
+  m_LocalPosition: {x: -0.7091878, y: 0.17306857, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 21
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1760057834419288745
+--- !u!114 &395023617092926596
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7697530306655848004}
+  m_GameObject: {fileID: 7679617710885760333}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -2399,13 +2344,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &3481234674442751038
+--- !u!114 &4887347989269717715
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7697530306655848004}
+  m_GameObject: {fileID: 7679617710885760333}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -2413,8 +2358,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 20
---- !u!1 &8130164049757147204
+  index: 18
+--- !u!1 &7695761601848724688
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2422,37 +2367,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6624264704682744432}
-  - component: {fileID: 4425103213285988148}
-  - component: {fileID: 5328310262663848160}
-  m_Layer: 0
+  - component: {fileID: 6385492830352286325}
+  - component: {fileID: 3494833317868622062}
+  - component: {fileID: 7707543975446922569}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6624264704682744432
+--- !u!4 &6385492830352286325
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8130164049757147204}
-  m_LocalRotation: {x: -0, y: -0, z: 0.8174322, w: 0.5760248}
-  m_LocalPosition: {x: -0.24556541, y: 0.6874574, z: 0}
+  m_GameObject: {fileID: 7695761601848724688}
+  m_LocalRotation: {x: -0, y: -0, z: 0.55505186, w: 0.8318157}
+  m_LocalPosition: {x: 0.28019947, y: 0.6740833, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 13
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4425103213285988148
+--- !u!114 &3494833317868622062
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8130164049757147204}
+  m_GameObject: {fileID: 7695761601848724688}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -2469,13 +2414,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &5328310262663848160
+--- !u!114 &7707543975446922569
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8130164049757147204}
+  m_GameObject: {fileID: 7695761601848724688}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -2483,8 +2428,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
-  index: 12
---- !u!1 &8586962919086193292
+  index: 9
+--- !u!1 &7803405199175882781
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2492,23 +2437,443 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 886581900137869197}
-  - component: {fileID: 6425542892722146692}
-  - component: {fileID: 7763828266680945681}
-  m_Layer: 0
+  - component: {fileID: 4338872197683073190}
+  - component: {fileID: 3627558946928348035}
+  - component: {fileID: 856442721910022436}
+  m_Layer: 10
   m_Name: SuperGun(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &886581900137869197
+--- !u!4 &4338872197683073190
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8586962919086193292}
+  m_GameObject: {fileID: 7803405199175882781}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9820999, w: 0.18836083}
+  m_LocalPosition: {x: -0.6781995, y: 0.27008414, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509185956166492054}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3627558946928348035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7803405199175882781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
+  bulletLayer: 11
+  frequence: 3
+  pattern: 1000
+  angularVelocity: 0
+  bulletLifeMax: 90
+  bulletVelocity: 1
+  bulletAngularVelocityZ: 0
+  hideBulletsInHierarchy: 1
+  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
+  gizmoScale: 1
+--- !u!114 &856442721910022436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7803405199175882781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloner: {fileID: 4239528287927477488}
+  source: {fileID: 4284638528639203511}
+  index: 16
+--- !u!1 &7823861857938584842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 321878027212910682}
+  - component: {fileID: 3630143339549900545}
+  - component: {fileID: 8467463857512469198}
+  m_Layer: 10
+  m_Name: SuperGun(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &321878027212910682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7823861857938584842}
+  m_LocalRotation: {x: -0, y: -0, z: -0.75959575, w: 0.6503955}
+  m_LocalPosition: {x: -0.11239915, y: -0.721295, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509185956166492054}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3630143339549900545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7823861857938584842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
+  bulletLayer: 11
+  frequence: 3
+  pattern: 1000
+  angularVelocity: 0
+  bulletLifeMax: 90
+  bulletVelocity: 1
+  bulletAngularVelocityZ: 0
+  hideBulletsInHierarchy: 1
+  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
+  gizmoScale: 1
+--- !u!114 &8467463857512469198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7823861857938584842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloner: {fileID: 4239528287927477488}
+  source: {fileID: 4284638528639203511}
+  index: 26
+--- !u!1 &7873768421722914626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4085540161190100237}
+  - component: {fileID: 2533054032916893041}
+  - component: {fileID: 5365092298817770707}
+  m_Layer: 10
+  m_Name: SuperGun(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4085540161190100237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7873768421722914626}
+  m_LocalRotation: {x: -0, y: -0, z: -0.3373298, w: 0.9413865}
+  m_LocalPosition: {x: 0.5638646, y: -0.4636344, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509185956166492054}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2533054032916893041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7873768421722914626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
+  bulletLayer: 11
+  frequence: 3
+  pattern: 1000
+  angularVelocity: 0
+  bulletLifeMax: 90
+  bulletVelocity: 1
+  bulletAngularVelocityZ: 0
+  hideBulletsInHierarchy: 1
+  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
+  gizmoScale: 1
+--- !u!114 &5365092298817770707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7873768421722914626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloner: {fileID: 4239528287927477488}
+  source: {fileID: 4284638528639203511}
+  index: 33
+--- !u!1 &8302877354929275510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1570243196188176677}
+  - component: {fileID: 3546004323414812167}
+  - component: {fileID: 4960430297150435508}
+  m_Layer: 10
+  m_Name: SuperGun(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1570243196188176677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8302877354929275510}
+  m_LocalRotation: {x: -0, y: -0, z: 0.8609957, w: 0.50861216}
+  m_LocalPosition: {x: -0.35231802, y: 0.63935286, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509185956166492054}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3546004323414812167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8302877354929275510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
+  bulletLayer: 11
+  frequence: 3
+  pattern: 1000
+  angularVelocity: 0
+  bulletLifeMax: 90
+  bulletVelocity: 1
+  bulletAngularVelocityZ: 0
+  hideBulletsInHierarchy: 1
+  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
+  gizmoScale: 1
+--- !u!114 &4960430297150435508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8302877354929275510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloner: {fileID: 4239528287927477488}
+  source: {fileID: 4284638528639203511}
+  index: 14
+--- !u!1 &8585388798336544682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6376509520845207611}
+  - component: {fileID: 6686196359836654310}
+  - component: {fileID: 4149225370915453780}
+  m_Layer: 10
+  m_Name: SuperGun(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6376509520845207611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8585388798336544682}
+  m_LocalRotation: {x: -0, y: -0, z: 0.8031147, w: 0.5958245}
+  m_LocalPosition: {x: -0.21169011, y: 0.6986325, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509185956166492054}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6686196359836654310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8585388798336544682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
+  bulletLayer: 11
+  frequence: 3
+  pattern: 1000
+  angularVelocity: 0
+  bulletLifeMax: 90
+  bulletVelocity: 1
+  bulletAngularVelocityZ: 0
+  hideBulletsInHierarchy: 1
+  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
+  gizmoScale: 1
+--- !u!114 &4149225370915453780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8585388798336544682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloner: {fileID: 4239528287927477488}
+  source: {fileID: 4284638528639203511}
+  index: 11
+--- !u!1 &8727338536253002399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3308201834329640886}
+  - component: {fileID: 8713201883189613466}
+  - component: {fileID: 6486420556442415080}
+  m_Layer: 10
+  m_Name: SuperGun(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3308201834329640886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8727338536253002399}
+  m_LocalRotation: {x: -0, y: -0, z: -0.43388355, w: 0.90096897}
+  m_LocalPosition: {x: 0.45514774, y: -0.5707369, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509185956166492054}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8713201883189613466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8727338536253002399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
+  bulletLayer: 11
+  frequence: 3
+  pattern: 1000
+  angularVelocity: 0
+  bulletLifeMax: 90
+  bulletVelocity: 1
+  bulletAngularVelocityZ: 0
+  hideBulletsInHierarchy: 1
+  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
+  gizmoScale: 1
+--- !u!114 &6486420556442415080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8727338536253002399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloner: {fileID: 4239528287927477488}
+  source: {fileID: 4284638528639203511}
+  index: 30
+--- !u!1 &8977574143979242005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1715904413596268199}
+  - component: {fileID: 6535447175041773117}
+  - component: {fileID: 4834911650662531917}
+  m_Layer: 10
+  m_Name: SuperGun(Clone)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1715904413596268199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8977574143979242005}
   m_LocalRotation: {x: -0, y: -0, z: 0.97492796, w: 0.22252087}
   m_LocalPosition: {x: -0.65770733, y: 0.31673503, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -2516,13 +2881,13 @@ Transform:
   m_Father: {fileID: 1509185956166492054}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6425542892722146692
+--- !u!114 &6535447175041773117
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8586962919086193292}
+  m_GameObject: {fileID: 8977574143979242005}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
@@ -2539,13 +2904,13 @@ MonoBehaviour:
   hideBulletsInHierarchy: 1
   gizmoColor: {r: 1, g: 1, b: 0, a: 1}
   gizmoScale: 1
---- !u!114 &7763828266680945681
+--- !u!114 &4834911650662531917
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8586962919086193292}
+  m_GameObject: {fileID: 8977574143979242005}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
@@ -2554,353 +2919,3 @@ MonoBehaviour:
   cloner: {fileID: 4239528287927477488}
   source: {fileID: 4284638528639203511}
   index: 15
---- !u!1 &8862445769134444782
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5603856996337281222}
-  - component: {fileID: 8175222021764525245}
-  - component: {fileID: 4442323275009790289}
-  m_Layer: 0
-  m_Name: SuperGun(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5603856996337281222
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8862445769134444782}
-  m_LocalRotation: {x: -0, y: -0, z: 0.94172245, w: -0.336391}
-  m_LocalPosition: {x: -0.56478804, y: -0.46250892, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 25
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8175222021764525245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8862445769134444782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
-  bulletLayer: 11
-  frequence: 3
-  pattern: 1000
-  angularVelocity: 0
-  bulletLifeMax: 90
-  bulletVelocity: 1
-  bulletAngularVelocityZ: 0
-  hideBulletsInHierarchy: 1
-  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
-  gizmoScale: 1
---- !u!114 &4442323275009790289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8862445769134444782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloner: {fileID: 4239528287927477488}
-  source: {fileID: 4284638528639203511}
-  index: 24
---- !u!1 &8954236536169360943
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4243596762828030693}
-  - component: {fileID: 5785001577747688440}
-  - component: {fileID: 8828028381168458581}
-  m_Layer: 0
-  m_Name: SuperGun(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4243596762828030693
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8954236536169360943}
-  m_LocalRotation: {x: -0, y: -0, z: 0.0888943, w: 0.99604106}
-  m_LocalPosition: {x: 0.7184628, y: 0.12927186, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5785001577747688440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8954236536169360943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
-  bulletLayer: 11
-  frequence: 3
-  pattern: 1000
-  angularVelocity: 0
-  bulletLifeMax: 90
-  bulletVelocity: 1
-  bulletAngularVelocityZ: 0
-  hideBulletsInHierarchy: 1
-  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
-  gizmoScale: 1
---- !u!114 &8828028381168458581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8954236536169360943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloner: {fileID: 4239528287927477488}
-  source: {fileID: 4284638528639203511}
-  index: 3
---- !u!1 &9040562684024676175
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6793975396970522789}
-  - component: {fileID: 7794274908722029142}
-  - component: {fileID: 5091276470881582664}
-  m_Layer: 0
-  m_Name: SuperGun(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6793975396970522789
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9040562684024676175}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7818315, w: 0.6234898}
-  m_LocalPosition: {x: -0.1624403, y: 0.7116974, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7794274908722029142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9040562684024676175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
-  bulletLayer: 11
-  frequence: 3
-  pattern: 1000
-  angularVelocity: 0
-  bulletLifeMax: 90
-  bulletVelocity: 1
-  bulletAngularVelocityZ: 0
-  hideBulletsInHierarchy: 1
-  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
-  gizmoScale: 1
---- !u!114 &5091276470881582664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9040562684024676175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloner: {fileID: 4239528287927477488}
-  source: {fileID: 4284638528639203511}
-  index: 10
---- !u!1 &9099030596118300821
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1446439935528028599}
-  - component: {fileID: 9123370749847308413}
-  - component: {fileID: 8650763097001560692}
-  m_Layer: 0
-  m_Name: SuperGun(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1446439935528028599
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9099030596118300821}
-  m_LocalRotation: {x: -0, y: -0, z: 0.834161, w: 0.55152106}
-  m_LocalPosition: {x: -0.28590378, y: 0.6716837, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9123370749847308413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9099030596118300821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
-  bulletLayer: 11
-  frequence: 3
-  pattern: 1000
-  angularVelocity: 0
-  bulletLifeMax: 90
-  bulletVelocity: 1
-  bulletAngularVelocityZ: 0
-  hideBulletsInHierarchy: 1
-  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
-  gizmoScale: 1
---- !u!114 &8650763097001560692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9099030596118300821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloner: {fileID: 4239528287927477488}
-  source: {fileID: 4284638528639203511}
-  index: 13
---- !u!1 &9106065819051911350
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2629345316712352754}
-  - component: {fileID: 9031540201874723122}
-  - component: {fileID: 3254205475874863471}
-  m_Layer: 0
-  m_Name: SuperGun(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2629345316712352754
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9106065819051911350}
-  m_LocalRotation: {x: -0, y: -0, z: 0.48655322, w: 0.87365097}
-  m_LocalPosition: {x: 0.3843683, y: 0.62061346, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1509185956166492054}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9031540201874723122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9106065819051911350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e2611363f6b7e640826439a15522772, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSource: {fileID: 2224961037984544573, guid: 639bb50759c6eb54a930e6d5b2b8f2f4, type: 3}
-  bulletLayer: 11
-  frequence: 3
-  pattern: 1000
-  angularVelocity: 0
-  bulletLifeMax: 90
-  bulletVelocity: 1
-  bulletAngularVelocityZ: 0
-  hideBulletsInHierarchy: 1
-  gizmoColor: {r: 1, g: 1, b: 0, a: 1}
-  gizmoScale: 1
---- !u!114 &3254205475874863471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9106065819051911350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f87c3eeb856825498f3ec425c7ebf03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cloner: {fileID: 4239528287927477488}
-  source: {fileID: 4284638528639203511}
-  index: 7

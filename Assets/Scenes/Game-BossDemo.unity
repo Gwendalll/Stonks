@@ -168,7 +168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: -4
-  sequencerPosition: {x: 0, y: 16.25, z: 0}
+  sequencerPosition: {x: 0, y: 5.529999, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -176,6 +176,60 @@ MonoBehaviour:
     active: 0
     color: {r: 1, g: 0, b: 0, a: 1}
   prefab: {fileID: 1988078004628185301, guid: 809b9a9a02eec4def9bb0c3acbce214a, type: 3}
+  spawnCount: 0
+--- !u!1 &56540361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 56540362}
+  - component: {fileID: 56540363}
+  m_Layer: 9
+  m_Name: Spawner:EnemyA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &56540362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56540361}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3, y: 37.39, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1994176407}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &56540363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56540361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 062cb8473dd64024cb61d930c15aeca5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.5
+  offset: 0
+  sequencerPosition: {x: -3, y: 48.67, z: 0}
+  showLabel: 1
+  alwaysDisplayLabel: 0
+  shortLabel: 0
+  customColor:
+    active: 0
+    color: {r: 1, g: 0, b: 0, a: 1}
+  prefab: {fileID: 850971958828273910, guid: 863de4a784cf4d64296fc2e853a8e6f0, type: 3}
   spawnCount: 0
 --- !u!1 &116281942
 GameObject:
@@ -224,7 +278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3, y: 68.5, z: 0}
+  sequencerPosition: {x: -3, y: 57.78, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -295,74 +349,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &138382377
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 138382378}
-  - component: {fileID: 138382380}
-  - component: {fileID: 138382379}
-  m_Layer: 0
-  m_Name: Boss-Loop-End
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &138382378
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138382377}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 38.89, z: -0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1994176407}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &138382379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138382377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5313c849fdf6e324caa7e8745596fb91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 440504637}
-  targetName: 
-  jumpMaxCount: -1
---- !u!114 &138382380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138382377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 012a735a056edd04ab53f4ab51f68d87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.5
-  offset: 0
-  sequencerPosition: {x: 0, y: 60.89, z: 0}
-  showLabel: 1
-  alwaysDisplayLabel: 1
-  shortLabel: 0
-  customColor:
-    active: 1
-    color: {r: 1, g: 0.87176263, b: 0, a: 1}
 --- !u!1 &226906557
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,7 +379,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1994176407}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &226906559
 MonoBehaviour:
@@ -422,7 +408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 37.05, z: 0}
+  sequencerPosition: {x: 0, y: 26.329998, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -476,7 +462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -0.62, y: 6.88, z: 0}
+  sequencerPosition: {x: -0.62, y: -3.8400006, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -493,7 +479,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235578185}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.62, y: 6.88, z: 0}
+  m_LocalPosition: {x: -0.62, y: 6.8799996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1582082102}
@@ -546,7 +532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.1, y: 5.6000004, z: 0}
+  sequencerPosition: {x: -3.1, y: -5.1200004, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -563,7 +549,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264804661}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.1, y: 5.6000004, z: 0}
+  m_LocalPosition: {x: -3.1, y: 5.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1582082102}
@@ -614,7 +600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 3, y: 1, z: 0}
+  sequencerPosition: {x: 3, y: -9.72, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -730,7 +716,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1994176407}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &397295719
 MonoBehaviour:
@@ -759,7 +745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 3.1, y: 34.29, z: 0}
+  sequencerPosition: {x: 3.1, y: 23.57, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -813,7 +799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0.62, y: 7.5199995, z: 0}
+  sequencerPosition: {x: 0.62, y: -3.2000003, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -830,7 +816,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403086742}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.62, y: 7.5199995, z: 0}
+  m_LocalPosition: {x: 0.62, y: 7.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1582082102}
@@ -881,7 +867,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0
   offset: -4
-  sequencerPosition: {x: -3, y: 19.32, z: 0}
+  sequencerPosition: {x: -3, y: 8.599998, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -921,13 +907,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 22, z: 0}
+  sequencerPosition: {x: 0, y: 11.279999, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
   customColor:
     active: 1
-    color: {r: 1, g: 0.87176263, b: 0, a: 1}
+    color: {r: 1, g: 1, b: 0, a: 1}
 --- !u!4 &440504638
 Transform:
   m_ObjectHideFlags: 0
@@ -1035,6 +1021,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &722744950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 722744951}
+  - component: {fileID: 722744952}
+  m_Layer: 9
+  m_Name: Spawner:EnemyA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &722744951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722744950}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 37.39, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1994176407}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &722744952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722744950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 062cb8473dd64024cb61d930c15aeca5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.5
+  offset: 0
+  sequencerPosition: {x: -2, y: 48.67, z: 0}
+  showLabel: 1
+  alwaysDisplayLabel: 0
+  shortLabel: 0
+  customColor:
+    active: 0
+    color: {r: 1, g: 0, b: 0, a: 1}
+  prefab: {fileID: 850971958828273910, guid: 863de4a784cf4d64296fc2e853a8e6f0, type: 3}
+  spawnCount: 0
 --- !u!1 &724047477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,7 +1248,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1994176407}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &759229687
 MonoBehaviour:
@@ -1237,7 +1277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 3.1, y: 50.34, z: 0}
+  sequencerPosition: {x: 3.1, y: 39.62, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -1305,7 +1345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.0000002, y: 70.5, z: 0}
+  sequencerPosition: {x: -3.0000002, y: 59.78, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1404,7 +1444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3, y: 1, z: 0}
+  sequencerPosition: {x: -3, y: -9.72, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1413,6 +1453,74 @@ MonoBehaviour:
     color: {r: 1, g: 0, b: 0, a: 1}
   prefab: {fileID: 850971958828273910, guid: 863de4a784cf4d64296fc2e853a8e6f0, type: 3}
   spawnCount: 0
+--- !u!1 &938226595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 938226596}
+  - component: {fileID: 938226598}
+  - component: {fileID: 938226597}
+  m_Layer: 0
+  m_Name: Boss-Loop-End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &938226596
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938226595}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 39.26, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1994176407}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &938226597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938226595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5313c849fdf6e324caa7e8745596fb91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 440504637}
+  targetName: 
+  jumpMaxCount: -1
+--- !u!114 &938226598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938226595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012a735a056edd04ab53f4ab51f68d87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.5
+  offset: 0
+  sequencerPosition: {x: 0, y: 50.539997, z: 0}
+  showLabel: 1
+  alwaysDisplayLabel: 1
+  shortLabel: 0
+  customColor:
+    active: 1
+    color: {r: 1, g: 1, b: 0, a: 1}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1641,13 +1749,67 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 83, z: 0}
+  sequencerPosition: {x: 0, y: 72.28, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
     color: {r: 1, g: 0, b: 0, a: 1}
+--- !u!1 &1042562278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1042562279}
+  - component: {fileID: 1042562280}
+  m_Layer: 9
+  m_Name: Spawner:EnemyA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1042562279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042562278}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 37.39, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1994176407}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1042562280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042562278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 062cb8473dd64024cb61d930c15aeca5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.5
+  offset: 0
+  sequencerPosition: {x: 2, y: 48.67, z: 0}
+  showLabel: 1
+  alwaysDisplayLabel: 0
+  shortLabel: 0
+  customColor:
+    active: 0
+    color: {r: 1, g: 0, b: 0, a: 1}
+  prefab: {fileID: 850971958828273910, guid: 863de4a784cf4d64296fc2e853a8e6f0, type: 3}
+  spawnCount: 0
 --- !u!1 &1076659479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1693,7 +1855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 2, y: 1, z: 0}
+  sequencerPosition: {x: 2, y: -9.72, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1726,7 +1888,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131273923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: 0}
+  m_LocalPosition: {x: 0, y: -10.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1582082102}
@@ -1783,7 +1945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -1.86, y: 6.24, z: 0}
+  sequencerPosition: {x: -1.86, y: -4.4800005, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1900,7 +2062,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3, y: 67.5, z: 0}
+  sequencerPosition: {x: -3, y: 56.78, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1953,7 +2115,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1994176407}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1233857970
 MonoBehaviour:
@@ -1969,7 +2131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.02, y: 30.11, z: 0}
+  sequencerPosition: {x: -3.02, y: 19.39, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -2024,7 +2186,7 @@ MonoBehaviour:
   timeScale: 1
   gizmosColor: {r: 1, g: 0.5, b: 1, a: 1}
   hidePassedTriggers: 1
-  scroll: 0
+  scroll: 10.72
   AlignSequences_Spacing: 1
 --- !u!4 &1242101789
 Transform:
@@ -2102,7 +2264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 3.1, y: 8.799999, z: 0}
+  sequencerPosition: {x: 3.1, y: -1.920001, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2235,7 +2397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.0000002, y: 69.5, z: 0}
+  sequencerPosition: {x: -3.0000002, y: 58.78, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2450,7 +2612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -2, y: 1, z: 0}
+  sequencerPosition: {x: -2, y: -9.72, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2680,7 +2842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 1.86, y: 8.16, z: 0}
+  sequencerPosition: {x: 1.86, y: -2.5600004, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2733,7 +2895,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1994176407}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1790475846
 MonoBehaviour:
@@ -2762,7 +2924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 53.71, z: 0}
+  sequencerPosition: {x: 0, y: 42.989998, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -2816,7 +2978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -2.9999998, y: 66.5, z: 0}
+  sequencerPosition: {x: -2.9999998, y: 55.78, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2869,7 +3031,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1994176407}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1958209060
 MonoBehaviour:
@@ -2898,7 +3060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.02, y: 49.84, z: 0}
+  sequencerPosition: {x: -3.02, y: 39.12, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -2934,13 +3096,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 440504638}
-  - {fileID: 138382378}
   - {fileID: 1233857969}
   - {fileID: 397295718}
   - {fileID: 1958209059}
   - {fileID: 759229686}
   - {fileID: 226906558}
   - {fileID: 1790475845}
+  - {fileID: 56540362}
+  - {fileID: 722744951}
+  - {fileID: 2010773003}
+  - {fileID: 1042562279}
+  - {fileID: 938226596}
   m_Father: {fileID: 1131273924}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2957,6 +3123,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sequenceLength: 40
+--- !u!1 &2010773002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2010773003}
+  - component: {fileID: 2010773004}
+  m_Layer: 9
+  m_Name: Spawner:EnemyA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2010773003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010773002}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3, y: 37.39, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1994176407}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2010773004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010773002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 062cb8473dd64024cb61d930c15aeca5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.5
+  offset: 0
+  sequencerPosition: {x: 3, y: 48.67, z: 0}
+  showLabel: 1
+  alwaysDisplayLabel: 0
+  shortLabel: 0
+  customColor:
+    active: 0
+    color: {r: 1, g: 0, b: 0, a: 1}
+  prefab: {fileID: 850971958828273910, guid: 863de4a784cf4d64296fc2e853a8e6f0, type: 3}
+  spawnCount: 0
 --- !u!1 &2037906944
 GameObject:
   m_ObjectHideFlags: 0
@@ -3056,7 +3276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0
   offset: -4
-  sequencerPosition: {x: 3, y: 20.24, z: 0}
+  sequencerPosition: {x: 3, y: 9.52, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -3112,7 +3332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -2.9999998, y: 65.5, z: 0}
+  sequencerPosition: {x: -2.9999998, y: 54.78, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
