@@ -36,22 +36,25 @@ namespace Sequencer {
             Prepare();
         }
 
-        void UpdateScrollerPosition() {
-            switch (direction)
-            {
+        public Vector3 GetScrollDirection() {
+            switch (direction) {
                 case ScrollDirection.RIGHT:
-                scroller.transform.localPosition = Vector3.left * scroll;
-                break;
+                return Vector3.left;
+                
                 case ScrollDirection.LEFT:
-                scroller.transform.localPosition = Vector3.right * scroll;
-                break;
-                case ScrollDirection.UP:
-                scroller.transform.localPosition = Vector3.down * scroll;
-                break;
+                return Vector3.right;
+                
                 case ScrollDirection.DOWN:
-                scroller.transform.localPosition = Vector3.up * scroll;
-                break;
+                return Vector3.up;
+                
+                case ScrollDirection.UP:
+                default:
+                return Vector3.down;
             }
+        }
+
+        void UpdateScrollerPosition() {
+            scroller.transform.localPosition = GetScrollDirection() * scroll;
         }
 
         void Update() {
@@ -59,17 +62,17 @@ namespace Sequencer {
             UpdateScrollerPosition();
         }
 
-        public SequenceTrigger GetTriggerByName(string name) =>
-            GetComponentsInChildren<SequenceTrigger>().FirstOrDefault(x => x.gameObject.name == name);
+        public Trigger GetTriggerByName(string name) =>
+            GetComponentsInChildren<Trigger>().FirstOrDefault(x => x.gameObject.name == name);
 
         public void Jump(float destination) {
             scroll = destination;
             UpdateScrollerPosition();
-            foreach(var sequence in GetComponentsInChildren<SequenceTrigger>()) {
+            foreach(var sequence in GetComponentsInChildren<Trigger>()) {
                 sequence.ResetTrigger();
             }
         }
-        public void Jump(SequenceTrigger trigger) => Jump(GetScrollPosition(trigger.transform.position).x);
+        public void Jump(Trigger trigger) => Jump(GetScrollPosition(trigger.transform.position).x);
         public void Jump(string name) {
 
             var sequenceTrigger = GetTriggerByName(name);
@@ -134,12 +137,28 @@ namespace Sequencer {
             UpdateScrollerPosition();
         }
 
-        void JoinSequences() {
+        public void CreateNewSequence() {
+            Prepare();
+            
+            var last = GetComponentsInChildren<Sequence>().LastOrDefault();
+
+            var go = new GameObject("Sequence");
+            go.transform.SetParent(scroller.transform, false);
+            go.AddComponent<Sequence>();
+
+            if (last != null) {
+                go.transform.position = last.transform.position + GetScrollDirection() * -last.sequenceLength;
+            }
+        }
+
+        [SerializeField]
+        private float AlignSequences_Spacing = 0f;
+        void AlignSequences() {
             float x = 0f;
             foreach(var sequence in GetComponentsInChildren<Sequence>()) {
-                sequence.transform.localPosition = Vector3.right * x;
+                sequence.transform.localPosition = GetScrollDirection() * -x;
                 sequence.transform.localRotation = Quaternion.identity;
-                x += sequence.sequenceLength;
+                x += sequence.sequenceLength + AlignSequences_Spacing;
             }
         }
 
@@ -171,9 +190,16 @@ namespace Sequencer {
 
                 Space(16);
                 LabelField("Sequences", EditorStyles.boldLabel);
-                if (GUILayout.Button("Join Sequences")) {
-                    sequencer.JoinSequences();
+                if (GUILayout.Button("Create New Sequence")) {
+                    sequencer.CreateNewSequence();
                 }
+                
+                BeginHorizontal();
+                sequencer.AlignSequences_Spacing = EditorGUILayout.FloatField("Spacing", sequencer.AlignSequences_Spacing);
+                if (GUILayout.Button("Align Sequences")) {
+                    sequencer.AlignSequences();
+                }
+                EndHorizontal();
 
                 serializedObject.ApplyModifiedProperties();
             }

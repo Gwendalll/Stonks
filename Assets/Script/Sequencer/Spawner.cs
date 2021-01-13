@@ -11,11 +11,11 @@ using static UnityEditor.EditorGUILayout;
 namespace Sequencer {
 
     public class SequenceSpawnerLink : MonoBehaviour {
-        public SequenceSpawner spawner;
+        public Spawner spawner;
     }
 
     [ExecuteInEditMode]
-    public class SequenceSpawner : SequenceTrigger {
+    public class Spawner : Trigger {
 
         public Item prefab;
 
@@ -24,7 +24,7 @@ namespace Sequencer {
         protected override string GetName() => string.Format("Spawner:{0}", prefab !=null ? prefab.gameObject.name : "None");
         protected override string GetHandleLabel() => prefab !=null ? prefab.gameObject.name : "None";
 
-        protected override void Trigger() {
+        protected override void DoTrigger() {
 
             if (prefab != null) {
                 var spawned = Instantiate(prefab, transform.position, Quaternion.identity);
@@ -40,9 +40,9 @@ namespace Sequencer {
             DrawGizmos();
         }
 
-        [CustomEditor(typeof(SequenceSpawner))]
+        [CustomEditor(typeof(Spawner))]
         class MyEditor : Editor {
-            SequenceSpawner Target => target as SequenceSpawner;
+            Spawner Target => target as Spawner;
             public override void OnInspectorGUI() {
 
 

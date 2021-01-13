@@ -9,7 +9,7 @@ using UnityEditor;
 namespace Sequencer {
 
     [ExecuteAlways]
-    public class SequenceTrigger : MonoBehaviour {
+    public class Trigger : MonoBehaviour {
 
         public float radius = 0.5f;
         public float offset = 0;
@@ -112,7 +112,7 @@ namespace Sequencer {
             if (IsInsideSequencer()) {
                 if (ShouldTrigger()) {
                     if (Application.isPlaying) {
-                        Trigger();
+                        DoTrigger();
                         SendMessage("OnTriggerSequence", this, SendMessageOptions.DontRequireReceiver);
                     }
                 }
@@ -123,7 +123,7 @@ namespace Sequencer {
             sequencerPositionOld = sequencerPosition;
         }
 
-        protected virtual void Trigger() {
+        protected virtual void DoTrigger() {
 
         }
 

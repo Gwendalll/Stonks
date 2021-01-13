@@ -17,7 +17,7 @@ public class DeactivateTriggerOnDestroy : MonoBehaviour {
         applicationIsQuitting = true;
     }
 
-    Sequencer.SequenceTrigger GetTarget() {
+    Sequencer.Trigger GetTarget() {
         return FindObjectOfType<Sequencer.Sequencer>()?.GetTriggerByName(targetName);
     }
 

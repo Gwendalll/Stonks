@@ -168,13 +168,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+  sequence: {fileID: 1704929178}
   sequencerPosition: {x: 0, y: 16, z: 0}
+  sequencerPositionOld: {x: 0, y: 16, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
   prefab: {fileID: 8028006079311460396, guid: c3610d6df4ec1d24488fe93739a3a3a0, type: 3}
   spawnCount: 0
 --- !u!1 &48867690
@@ -275,13 +281,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+  sequence: {fileID: 724047479}
   sequencerPosition: {x: -3, y: 61.5, z: 0}
+  sequencerPositionOld: {x: -3, y: 61.5, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
   prefab: {fileID: 1489807583346549827, guid: 2680c7620cd90df4e8cdca80502b2b1f, type: 3}
   spawnCount: 0
 --- !u!4 &116281945
@@ -559,13 +571,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+  sequence: {fileID: 1582082103}
   sequencerPosition: {x: 3, y: 5, z: 0}
+  sequencerPositionOld: {x: 3, y: 5, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
   prefab: {fileID: 850971958828273910, guid: 863de4a784cf4d64296fc2e853a8e6f0, type: 3}
   spawnCount: 0
 --- !u!1 &407337065
@@ -613,13 +631,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+  sequence: {fileID: 1704929178}
   sequencerPosition: {x: -3, y: 20, z: 0}
+  sequencerPositionOld: {x: -3, y: 20, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
   prefab: {fileID: 6242546062274656485, guid: fc3bf0056dc9d3b4b8e9a6940da24a32, type: 3}
   spawnCount: 0
 --- !u!1 &705507993
@@ -829,13 +853,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+  sequence: {fileID: 724047479}
   sequencerPosition: {x: -3.0000002, y: 63.5, z: 0}
+  sequencerPositionOld: {x: -3.0000002, y: 63.5, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
   prefab: {fileID: 1489807583346549827, guid: 2680c7620cd90df4e8cdca80502b2b1f, type: 3}
   spawnCount: 0
 --- !u!1 &841467157
@@ -892,7 +922,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 868669705}
-  - component: {fileID: 868669706}
   m_Layer: 9
   m_Name: Spawner:EnemyA
   m_TagString: Untagged
@@ -914,29 +943,6 @@ Transform:
   m_Father: {fileID: 1582082102}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &868669706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868669704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 062cb8473dd64024cb61d930c15aeca5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.5
-  offset: 0
-  sequencerPosition: {x: -3, y: 5, z: 0}
-  showLabel: 1
-  alwaysDisplayLabel: 0
-  shortLabel: 0
-  customColor:
-    active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
-  prefab: {fileID: 850971958828273910, guid: 863de4a784cf4d64296fc2e853a8e6f0, type: 3}
-  spawnCount: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,13 +1071,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+  sequence: {fileID: 724047479}
   sequencerPosition: {x: 0, y: 76, z: 0}
+  sequencerPositionOld: {x: 0, y: 76, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
 --- !u!1 &1076659479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,13 +1129,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+  sequence: {fileID: 1582082103}
   sequencerPosition: {x: 2, y: 5, z: 0}
+  sequencerPositionOld: {x: 2, y: 5, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
   prefab: {fileID: 850971958828273910, guid: 863de4a784cf4d64296fc2e853a8e6f0, type: 3}
   spawnCount: 0
 --- !u!1 &1131273923
@@ -1205,13 +1223,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+  sequence: {fileID: 724047479}
   sequencerPosition: {x: -3, y: 60.5, z: 0}
+  sequencerPositionOld: {x: -3, y: 60.5, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
   prefab: {fileID: 1489807583346549827, guid: 2680c7620cd90df4e8cdca80502b2b1f, type: 3}
   spawnCount: 0
 --- !u!4 &1220638942
@@ -1403,13 +1427,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+  sequence: {fileID: 724047479}
   sequencerPosition: {x: -3.0000002, y: 62.5, z: 0}
+  sequencerPositionOld: {x: -3.0000002, y: 62.5, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
   prefab: {fileID: 1489807583346549827, guid: 2680c7620cd90df4e8cdca80502b2b1f, type: 3}
   spawnCount: 0
 --- !u!4 &1329509927
@@ -1476,13 +1506,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+  sequence: {fileID: 1582082103}
   sequencerPosition: {x: -2, y: 5, z: 0}
+  sequencerPositionOld: {x: -2, y: 5, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
   prefab: {fileID: 850971958828273910, guid: 863de4a784cf4d64296fc2e853a8e6f0, type: 3}
   spawnCount: 0
 --- !u!1 &1582082101
@@ -1565,13 +1601,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+  sequence: {fileID: 0}
   sequencerPosition: {x: 0, y: 4, z: 0}
+  sequencerPositionOld: {x: 0, y: 0, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
   prefab: {fileID: 1489807583346549827, guid: 2680c7620cd90df4e8cdca80502b2b1f, type: 3}
   spawnCount: 0
 --- !u!4 &1642595111
@@ -1884,13 +1926,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+  sequence: {fileID: 724047479}
   sequencerPosition: {x: -2.9999998, y: 59.5, z: 0}
+  sequencerPositionOld: {x: -2.9999998, y: 59.5, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
   prefab: {fileID: 1489807583346549827, guid: 2680c7620cd90df4e8cdca80502b2b1f, type: 3}
   spawnCount: 0
 --- !u!4 &1866584920
@@ -1983,13 +2031,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+  sequence: {fileID: 1704929178}
   sequencerPosition: {x: 3, y: 20, z: 0}
+  sequencerPositionOld: {x: 3, y: 20, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
   prefab: {fileID: 5637398885477643769, guid: a8ea052344bb5614692e71fe48c262fc, type: 3}
   spawnCount: 0
 --- !u!1 &2111386725
@@ -2039,13 +2093,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+  sequence: {fileID: 724047479}
   sequencerPosition: {x: -2.9999998, y: 58.5, z: 0}
+  sequencerPositionOld: {x: -2.9999998, y: 58.5, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
   customColor:
     active: 0
-    color: {r: 1, g: 0, b: 0, a: 1}
+    color:
+      r: 1
+      g: 0
+      b: 0
+      a: 1
   prefab: {fileID: 1489807583346549827, guid: 2680c7620cd90df4e8cdca80502b2b1f, type: 3}
   spawnCount: 0
 --- !u!4 &2111386728

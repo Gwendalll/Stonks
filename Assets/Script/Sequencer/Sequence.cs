@@ -1,17 +1,16 @@
 using System.Collections;
-using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 namespace Sequencer {
 
     public class Sequence : MonoBehaviour {
 
         public float sequenceLength = 20f;
-        public Vector3 initialPosition;
-
-        void Start() {
-            initialPosition = transform.localPosition;
-        }
 
 
 
@@ -21,8 +20,18 @@ namespace Sequencer {
             Gizmos.color = new Color(Gizmos.color.r, Gizmos.color.g, Gizmos.color.b, value);
         }
 
+#if UNITY_EDITOR
+        void DrawRect(Vector3 position, Vector3 size) {
+            GizmosAlpha(1f);
+            Gizmos.DrawWireCube(position, size);
+            if (IsSelected) {
+                GizmosAlpha(0.05f);
+                Gizmos.DrawCube(position, size);
+            }
+        }
+
         void DrawRight(float triggerSize) {
-            Gizmos.DrawWireCube(Vector3.right * sequenceLength / 2f, new Vector3(sequenceLength, triggerSize, 0));
+            DrawRect(Vector3.right * sequenceLength / 2f, new Vector3(sequenceLength, triggerSize, 0));
             GizmosAlpha(0.25f);
             int max = Mathf.FloorToInt(triggerSize / 2f);
             for (int i = -max; i <= max; i++) {
@@ -31,7 +40,7 @@ namespace Sequencer {
         }
 
         void DrawLeft(float triggerSize) {
-            Gizmos.DrawWireCube(Vector3.left * sequenceLength / 2f, new Vector3(sequenceLength, triggerSize, 0));
+            DrawRect(Vector3.left * sequenceLength / 2f, new Vector3(sequenceLength, triggerSize, 0));
             GizmosAlpha(0.25f);
             int max = Mathf.FloorToInt(triggerSize / 2f);
             for (int i = -max; i <= max; i++) {
@@ -40,7 +49,7 @@ namespace Sequencer {
         }
 
         void DrawUp(float triggerSize) {
-            Gizmos.DrawWireCube(Vector3.up * sequenceLength / 2f, new Vector3(triggerSize, sequenceLength, 0));
+            DrawRect(Vector3.up * sequenceLength / 2f, new Vector3(triggerSize, sequenceLength, 0));
             GizmosAlpha(0.25f);
             int max = Mathf.FloorToInt(triggerSize / 2f);
             for (int i = -max; i <= max; i++) {
@@ -49,13 +58,15 @@ namespace Sequencer {
         }
 
         void DrawDown(float triggerSize) {
-            Gizmos.DrawWireCube(Vector3.down * sequenceLength / 2f, new Vector3(triggerSize, sequenceLength, 0));
+            DrawRect(Vector3.down * sequenceLength / 2f, new Vector3(triggerSize, sequenceLength, 0));
             GizmosAlpha(0.25f);
             int max = Mathf.FloorToInt(triggerSize / 2f);
             for (int i = -max; i <= max; i++) {
                 Gizmos.DrawLine(new Vector3(i, -sequenceLength, 0f), new Vector3(i, 0f, 0f));
             }
         }
+
+        bool IsSelected => Selection.objects.Contains(gameObject);
 
         void OnDrawGizmos() {
             
@@ -84,5 +95,42 @@ namespace Sequencer {
                 break;
             }
         }
+
+        public void CreateTrigger() {
+            var go = new GameObject("Trigger");
+            go.AddComponent<Trigger>();
+            go.transform.SetParent(transform, false);
+            Selection.objects = new Object[] { go as Object };
+            var sequencer = GetComponentInParent<Sequencer>();
+            if (sequencer != null) {
+                go.transform.localPosition = sequencer.GetScrollDirection() * -sequenceLength / 2f;
+            }
+        }
+
+        public void CreateSpawner() {
+            var go = new GameObject();
+            go.AddComponent<Spawner>();
+            go.transform.SetParent(transform, false);
+            Selection.objects = new Object[] { go as Object };
+            var sequencer = GetComponentInParent<Sequencer>();
+            if (sequencer != null) {
+                go.transform.localPosition = sequencer.GetScrollDirection() * -sequenceLength / 2f;
+            }
+        }
+
+        [CustomEditor(typeof(Sequence))]
+        class MyEditor : Editor {
+            Sequence sequence => target as Sequence;
+            public override void OnInspectorGUI() {
+                base.OnInspectorGUI();
+                if (GUILayout.Button("Create Trigger")) {
+                    sequence.CreateTrigger();
+                }
+                if (GUILayout.Button("Create Spawner")) {
+                    sequence.CreateSpawner();
+                }
+            }
+        }
+#endif
     }
 }

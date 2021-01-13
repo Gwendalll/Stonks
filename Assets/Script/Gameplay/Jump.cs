@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using Sequencer;
 
-[RequireComponent(typeof(SequenceTrigger))]
+[RequireComponent(typeof(Sequencer.Trigger))]
 public class Jump : MonoBehaviour {
 
     [Header("Choose a target — or a targetName.")]
-    public SequenceTrigger target;
+    public Sequencer.Trigger target;
     public string targetName;
 
     [Tooltip("Nombre de saut max.\nSi valeur négative (-1) -> Boucle infinie.")]
     public int jumpMaxCount = -1;
 
-    void OnTriggerSequence(SequenceTrigger trigger) {
+    void OnTriggerSequence(Sequencer.Trigger trigger) {
         
         if (target != null) {
             trigger.sequencer.Jump(target);
