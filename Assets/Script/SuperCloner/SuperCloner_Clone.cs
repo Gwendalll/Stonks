@@ -5,6 +5,7 @@ using UnityEngine;
 
 #if UNITY_EDITOR
 using UnityEditor;
+using UnityEditor.SceneManagement;
 #endif
 
 namespace Utils.SuperCloner {
@@ -79,7 +80,17 @@ namespace Utils.SuperCloner {
 
         public void ComputeClones() {
 
-            clones = FindObjectsOfType<Clone>().Where(clone => clone.cloner == this).ToList();
+
+#if UNITY_EDITOR
+            clones = StageUtility.GetCurrentStageHandle()
+                .FindComponentsOfType<Clone>()
+                .Where(clone => clone.cloner == this)
+                .ToList();
+#else
+            clones = FindObjectsOfType<Clone>()
+                .Where(clone => clone.cloner == this)
+                .ToList();
+#endif
             clones.Sort((A, B) => A.index - B.index);
             
             int cloneCount = IdealCloneCount;

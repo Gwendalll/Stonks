@@ -147,8 +147,17 @@ namespace Sequencer {
 
                 Gizmos.DrawLine(transform.position, positionWithOffset);
                 Gizmos.DrawSphere(transform.position, selected ? 0.15f : 0.1f);
-                foreach (var (A, B) in Utils.ChordAround(positionWithOffset, radius)) {
-                    Gizmos.DrawLine(A, B);
+                if (radius > 0f) {
+                    foreach (var (A, B) in Utils.ChordAround(positionWithOffset, radius)) {
+                        Gizmos.DrawLine(A, B);
+                    }
+                } else if (offset != 0f) {
+                    // draw cross
+                    var crossSize = 0.1f;
+                    var d = new Vector3(crossSize, crossSize, 0);
+                    Gizmos.DrawLine(positionWithOffset - d, positionWithOffset + d);
+                    d = new Vector3(crossSize, -crossSize, 0);
+                    Gizmos.DrawLine(positionWithOffset - d, positionWithOffset + d);
                 }
                 if (showLabel) {
                     Vector3 cameraPos = Camera.current.WorldToScreenPoint(transform.position);
