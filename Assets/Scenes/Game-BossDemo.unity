@@ -168,7 +168,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: -4
-  sequencerPosition: {x: 0, y: 5.529999, z: 0}
+  sequencerPosition: {x: 0, y: 16.25, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -222,7 +223,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3, y: 48.67, z: 0}
+  sequencerPosition: {x: -3, y: 59.39, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -278,7 +280,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3, y: 57.78, z: 0}
+  sequencerPosition: {x: -3, y: 68.5, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -408,7 +411,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 26.329998, z: 0}
+  sequencerPosition: {x: 0, y: 37.05, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -462,7 +466,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -0.62, y: -3.8400006, z: 0}
+  sequencerPosition: {x: -0.62, y: 6.88, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -479,7 +484,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235578185}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.62, y: 6.8799996, z: 0}
+  m_LocalPosition: {x: -0.62, y: 6.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1582082102}
@@ -532,7 +537,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.1, y: -5.1200004, z: 0}
+  sequencerPosition: {x: -3.1, y: 5.6000004, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -549,7 +555,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264804661}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.1, y: 5.6, z: 0}
+  m_LocalPosition: {x: -3.1, y: 5.6000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1582082102}
@@ -600,7 +606,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 3, y: -9.72, z: 0}
+  sequencerPosition: {x: 3, y: 1, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -745,7 +752,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 3.1, y: 23.57, z: 0}
+  sequencerPosition: {x: 3.1, y: 34.29, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -799,7 +807,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0.62, y: -3.2000003, z: 0}
+  sequencerPosition: {x: 0.62, y: 7.5199995, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -816,7 +825,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403086742}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.62, y: 7.52, z: 0}
+  m_LocalPosition: {x: 0.62, y: 7.5199995, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1582082102}
@@ -867,7 +876,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0
   offset: -4
-  sequencerPosition: {x: -3, y: 8.599998, z: 0}
+  sequencerPosition: {x: -3, y: 19.32, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -907,7 +917,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 11.279999, z: 0}
+  sequencerPosition: {x: 0, y: 22, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -1066,7 +1077,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -2, y: 48.67, z: 0}
+  sequencerPosition: {x: -2, y: 59.39, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1277,7 +1289,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 3.1, y: 39.62, z: 0}
+  sequencerPosition: {x: 3.1, y: 50.34, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -1345,7 +1358,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.0000002, y: 59.78, z: 0}
+  sequencerPosition: {x: -3.0000002, y: 70.5, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1444,7 +1458,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3, y: -9.72, z: 0}
+  sequencerPosition: {x: -3, y: 1, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1514,7 +1529,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 50.539997, z: 0}
+  sequencerPosition: {x: 0, y: 61.259995, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -1749,7 +1765,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 72.28, z: 0}
+  sequencerPosition: {x: 0, y: 83, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1801,7 +1818,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 2, y: 48.67, z: 0}
+  sequencerPosition: {x: 2, y: 59.39, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1855,7 +1873,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 2, y: -9.72, z: 0}
+  sequencerPosition: {x: 2, y: 1, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1888,7 +1907,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131273923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -10.72, z: 0}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1582082102}
@@ -1945,7 +1964,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -1.86, y: -4.4800005, z: 0}
+  sequencerPosition: {x: -1.86, y: 6.24, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2062,7 +2082,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3, y: 56.78, z: 0}
+  sequencerPosition: {x: -3, y: 67.5, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2131,7 +2152,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.02, y: 19.39, z: 0}
+  sequencerPosition: {x: -3.02, y: 30.11, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -2186,7 +2208,7 @@ MonoBehaviour:
   timeScale: 1
   gizmosColor: {r: 1, g: 0.5, b: 1, a: 1}
   hidePassedTriggers: 1
-  scroll: 10.72
+  scroll: 0
   AlignSequences_Spacing: 1
 --- !u!4 &1242101789
 Transform:
@@ -2264,7 +2286,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 3.1, y: -1.920001, z: 0}
+  sequencerPosition: {x: 3.1, y: 8.799999, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2397,7 +2420,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.0000002, y: 58.78, z: 0}
+  sequencerPosition: {x: -3.0000002, y: 69.5, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2612,7 +2636,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -2, y: -9.72, z: 0}
+  sequencerPosition: {x: -2, y: 1, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2708,6 +2733,7 @@ MonoBehaviour:
   radius: 0.5
   offset: 0
   sequencerPosition: {x: 0, y: 4, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2842,7 +2868,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 1.86, y: -2.5600004, z: 0}
+  sequencerPosition: {x: 1.86, y: 8.16, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2924,7 +2951,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 42.989998, z: 0}
+  sequencerPosition: {x: 0, y: 53.71, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -2978,7 +3006,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -2.9999998, y: 55.78, z: 0}
+  sequencerPosition: {x: -2.9999998, y: 66.5, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -3060,7 +3089,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.02, y: 39.12, z: 0}
+  sequencerPosition: {x: -3.02, y: 49.84, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -3168,7 +3198,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 3, y: 48.67, z: 0}
+  sequencerPosition: {x: 3, y: 59.39, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -3209,6 +3240,7 @@ MonoBehaviour:
   radius: 0.5
   offset: 0
   sequencerPosition: {x: 0.13, y: 4.7700005, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -3276,7 +3308,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0
   offset: -4
-  sequencerPosition: {x: 3, y: 9.52, z: 0}
+  sequencerPosition: {x: 3, y: 20.24, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -3332,7 +3365,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -2.9999998, y: 54.78, z: 0}
+  sequencerPosition: {x: -2.9999998, y: 65.5, z: 0}
+  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
