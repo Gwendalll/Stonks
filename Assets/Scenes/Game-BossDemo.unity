@@ -168,8 +168,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: -4
-  sequencerPosition: {x: 0, y: 16.25, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -223,8 +221,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3, y: 59.39, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -280,8 +276,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3, y: 68.5, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -411,8 +405,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 37.05, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -466,8 +458,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -0.62, y: 6.88, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -537,8 +527,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.1, y: 5.6000004, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -606,8 +594,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 3, y: 1, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -752,8 +738,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 3.1, y: 34.29, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -807,8 +791,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0.62, y: 7.5199995, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -876,8 +858,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0
   offset: -4
-  sequencerPosition: {x: -3, y: 19.32, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -917,8 +897,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 22, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -1077,8 +1055,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -2, y: 59.39, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1289,8 +1265,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 3.1, y: 50.34, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -1358,8 +1332,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.0000002, y: 70.5, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1458,8 +1430,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3, y: 1, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1529,8 +1499,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 61.259995, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -1765,8 +1733,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 83, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1818,8 +1784,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 2, y: 59.39, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1873,8 +1837,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 2, y: 1, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1964,8 +1926,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -1.86, y: 6.24, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2082,8 +2042,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3, y: 67.5, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2152,8 +2110,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.02, y: 30.11, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -2286,8 +2242,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 3.1, y: 8.799999, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2420,8 +2374,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.0000002, y: 69.5, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2636,8 +2588,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -2, y: 1, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2732,8 +2682,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 4, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2868,8 +2816,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 1.86, y: 8.16, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -2951,8 +2897,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0, y: 53.71, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -3006,8 +2950,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -2.9999998, y: 66.5, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -3089,8 +3031,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -3.02, y: 49.84, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -3198,8 +3138,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 3, y: 59.39, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -3239,8 +3177,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0.13, y: 4.7700005, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -3308,8 +3244,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0
   offset: -4
-  sequencerPosition: {x: 3, y: 20.24, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -3365,8 +3299,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: -2.9999998, y: 65.5, z: 0}
-  triggerDelta: 0
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
