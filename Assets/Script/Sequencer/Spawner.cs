@@ -27,9 +27,14 @@ namespace Sequencer {
         protected override void DoTrigger() {
 
             if (prefab != null) {
-                var spawned = Instantiate(prefab, transform.position, Quaternion.identity);
+                var spawned = Instantiate(prefab, GetTriggerPosition(), Quaternion.identity);
                 var link = spawned.gameObject.AddComponent<SequenceSpawnerLink>();
                 link.spawner = this;
+
+                foreach (var item in spawned.GetComponentsInChildren<Item>()) {
+                    item.Step(Time.fixedDeltaTime * triggerDelta);
+                }
+
                 spawnCount++;
             }
         }

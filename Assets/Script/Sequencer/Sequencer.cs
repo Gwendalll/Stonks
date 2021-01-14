@@ -57,8 +57,8 @@ namespace Sequencer {
             scroller.transform.localPosition = GetScrollDirection() * scroll;
         }
 
-        void Update() {
-            scroll += velocity * timeScale * Time.deltaTime * Item.timeScale;
+        void FixedUpdate() {
+            scroll += velocity * timeScale * Time.fixedDeltaTime * Item.timeScale;
             UpdateScrollerPosition();
 #if UNITY_EDITOR
             if (Input.GetKeyDown(KeyCode.J)) {

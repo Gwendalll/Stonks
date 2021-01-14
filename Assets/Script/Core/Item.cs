@@ -35,9 +35,9 @@ public class Item : MonoBehaviour {
         }
     }
 
-    void FixedUpdate() {
+    public void Step(float dt) {
 
-        float dt = Time.fixedDeltaTime * timeScale;
+        dt *= timeScale;
         time += dt;
         transform.position += velocity * dt;
         transform.rotation *= Quaternion.Euler(angularVelocity * dt);
@@ -53,6 +53,10 @@ public class Item : MonoBehaviour {
         if (Stage.instance != null && Stage.instance.IsInsideMargin(transform.position) == false) {
             Destroy(gameObject);
         }
+    }
+
+    void FixedUpdate() {
+        Step(Time.fixedDeltaTime);
     }
 
 #if UNITY_EDITOR
