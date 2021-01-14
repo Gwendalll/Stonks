@@ -17,9 +17,10 @@ namespace Sequencer {
         [System.NonSerialized]
         public Sequencer sequencer;
         protected Sequence sequence;
-        // [System.NonSerialized]
+        [System.NonSerialized]
         public Vector3 sequencerPosition;
         protected Vector3 sequencerPositionOld;
+        [System.NonSerialized]
         public float triggerDelta;
 
         [Header("Gizmos")]
@@ -44,7 +45,7 @@ namespace Sequencer {
             sequencerPositionOld = sequencerPosition;
         }
 
-        void Init() {
+        protected void Init() {
 
             gameObject.name = GetName();
 
@@ -61,10 +62,6 @@ namespace Sequencer {
             }
         }
 
-        void Start() {
-            Init();
-        }
-
         public bool IsInsideSequencer() {
 
             if (sequencer == null) return true;
@@ -73,10 +70,10 @@ namespace Sequencer {
             switch(sequencer.direction) {
                 case ScrollDirection.RIGHT:
                 case ScrollDirection.LEFT:
-                return sequencerPosition.x >= -max && sequencerPosition.x <= max;
+                return sequencerPosition.y >= -max && sequencerPosition.y <= max;
                 case ScrollDirection.UP:
                 case ScrollDirection.DOWN:
-                return sequencerPosition.y >= -max && sequencerPosition.y <= max;
+                return sequencerPosition.x >= -max && sequencerPosition.x <= max;
             }
 
             throw new System.Exception("That may not happen!");
@@ -140,13 +137,25 @@ namespace Sequencer {
             throw new System.Exception("That may not happen!");
         }
 
-        void FixedUpdate() {
+        void ComputeTriggerDelta() {
 
-#if UNITY_EDITOR
-            if (Application.isPlaying == false) {
-                Init();
+            if (sequencer == null) return;
+            
+            switch(sequencer.direction) {
+                case ScrollDirection.RIGHT:
+                case ScrollDirection.LEFT:
+                triggerDelta = 1f - (radius - sequencerPositionOld.x) / (sequencerPosition.x - sequencerPositionOld.x);
+                return;
+                case ScrollDirection.UP:
+                case ScrollDirection.DOWN:
+                triggerDelta = 1f - (radius - sequencerPositionOld.y) / (sequencerPosition.y - sequencerPositionOld.y);
+                return;
             }
-#endif
+
+            throw new System.Exception("That may not happen!");
+        }
+
+        internal void TriggerUpdate() { 
             
             sequencerPositionOld = sequencerPosition;
             sequencerPosition = GetSequencerPosition();
@@ -155,7 +164,7 @@ namespace Sequencer {
             if (IsInsideSequencer()) {
                 if (ShouldTrigger()) {
                     if (Application.isPlaying) {
-                        triggerDelta = 1f - (GetTriggerPosition() - sequencerPositionOld).magnitude / (sequencerPosition - sequencerPositionOld).magnitude;
+                        ComputeTriggerDelta();
                         DoTrigger();
                         SendMessage("OnTriggerSequence", this, SendMessageOptions.DontRequireReceiver);
                     }
@@ -163,13 +172,35 @@ namespace Sequencer {
             }
         }
 
-        void LateUpdate() {
-            // sequencerPositionOld = sequencerPosition;
-        }
-
         protected virtual void DoTrigger() {
 
         }
+
+        void Start() {
+            Init();
+        }
+
+        void OnEnable() {
+            if (Application.isPlaying) {
+                Init();
+                sequencer.subscribeTrigger(this);
+            }
+        }
+
+        void OnDisable() {
+            if (Application.isPlaying) {
+                sequencer.unsubscribeTrigger(this);
+            }
+        }
+
+#if UNITY_EDITOR
+        void Update() {
+
+            if (Application.isPlaying == false) {
+                Init();
+            }
+        }
+#endif
 
         public void DrawGizmos() {
 #if UNITY_EDITOR

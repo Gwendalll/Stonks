@@ -32,6 +32,10 @@ namespace Sequencer {
         public Vector3 GetSequencerPosition(Vector3 position) => transform.InverseTransformPoint(position);
         public Vector3 GetScrollPosition(Vector3 position) => scroller.transform.InverseTransformPoint(position);
 
+        HashSet<Trigger> triggers = new HashSet<Trigger>();
+        public void subscribeTrigger(Trigger trigger) => triggers.Add(trigger);
+        public void unsubscribeTrigger(Trigger trigger) => triggers.Remove(trigger);
+
         void Start() {
             Prepare();
         }
@@ -60,11 +64,16 @@ namespace Sequencer {
         void FixedUpdate() {
             scroll += velocity * timeScale * Time.fixedDeltaTime * Item.timeScale;
             UpdateScrollerPosition();
+
 #if UNITY_EDITOR
             if (Input.GetKeyDown(KeyCode.J)) {
                 scroll += 5f;
             }
 #endif
+
+            foreach(var trigger in triggers) {
+                trigger.TriggerUpdate();
+            }
         }
 
         public Trigger GetTriggerByName(string name) =>
