@@ -28,12 +28,15 @@ namespace Sequencer {
 
             if (prefab != null) {
                 var spawned = Instantiate(prefab, GetTriggerPosition(), Quaternion.identity);
+                Debug.Log(spawned);
+                Debug.Log(spawned.transform.position);
                 var link = spawned.gameObject.AddComponent<SequenceSpawnerLink>();
                 link.spawner = this;
 
-                foreach (var item in spawned.GetComponentsInChildren<Item>()) {
-                    item.Step(Time.fixedDeltaTime * triggerDelta);
-                }
+                // Buggy, do not use!
+                // foreach (var item in spawned.GetComponentsInChildren<Item>()) {
+                //     item.Step(Time.fixedDeltaTime * triggerDelta);
+                // }
 
                 spawnCount++;
             }
