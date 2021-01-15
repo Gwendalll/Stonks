@@ -180,8 +180,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.46, y: 2.800429, z: 1}
-  m_Center: {x: 0, y: 0.34978545, z: 0}
+  m_Size: {x: 0.46, y: 3.1668363, z: 1}
+  m_Center: {x: 0, y: 0.16658193, z: 0}
 --- !u!135 &7365720359010998186
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -194,7 +194,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.2
-  m_Center: {x: 0, y: -1.55, z: 0}
+  m_Center: {x: 0, y: -1.6, z: 0}
 --- !u!135 &1881278218506552791
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -207,7 +207,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.2
-  m_Center: {x: 0, y: -1.15, z: 0}
+  m_Center: {x: 0, y: -2, z: 0}
 --- !u!95 &6919346244747149041
 Animator:
   serializedVersion: 3

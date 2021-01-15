@@ -1,16 +1,13 @@
 fileFormatVersion: 2
-guid: 449a91b95d375f4409faf4ee54635a49
+guid: 6f3739d050b104740b4be77886fc7df3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2424553518018739129
-    second: Boss Master
+      213: -2836606292114380488
+    second: barre de vie_0
   - first:
-      213: -3588229512158965765
-    second: Boss Left
-  - first:
-      213: -6963195877183015321
-    second: Boss Right
+      213: -4910355931735727871
+    second: barre de vie contour
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -55,7 +52,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 12
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boss Master
+      name: barre de vie_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 3
-        width: 96
-        height: 101
+        x: 1
+        y: 12
+        width: 28
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 744c193db614a5ed0800000000000000
-      internalID: -2424553518018739129
+      spriteID: 83962e63b9952a8d0800000000000000
+      internalID: -2836606292114380488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss Left
+      name: barre de vie contour
       rect:
         serializedVersion: 2
-        x: 4
-        y: 2
-        width: 23
-        height: 216
+        x: 0
+        y: 5
+        width: 30
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,29 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bff013b154c043ec0800000000000000
-      internalID: -3588229512158965765
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boss Right
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 2
-        width: 23
-        height: 218
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 766ba070e32cd5f90800000000000000
-      internalID: -6963195877183015321
+      spriteID: 101e828db49eadbb0800000000000000
+      internalID: -4910355931735727871
       vertices: []
       indices: 
       edges: []
@@ -165,7 +141,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 127960840e568d245937021ca19b5f0d
+    spriteID: b7c01e453b86bb9438f1efe5703d35a1
     internalID: 0
     vertices: []
     indices: 
