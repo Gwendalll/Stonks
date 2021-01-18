@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class DestroyArm : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+//    void Update()
+//    {
+//       Item otherItem = 
+            // Tente de récupérer une instance de <Item> directement sur le gameObject associé à "other"
+//          FindObjectOfType<Boss>();
+
+//       if (otherItem != null){
+//            Destroy(GameObject);
+//       }
+//    }
 }
