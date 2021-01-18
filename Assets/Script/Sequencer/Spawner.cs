@@ -14,7 +14,7 @@ namespace Sequencer {
         public Spawner spawner;
     }
 
-    [ExecuteInEditMode]
+    [ExecuteAlways]
     public class Spawner : Trigger {
 
         public Item prefab;
@@ -27,13 +27,18 @@ namespace Sequencer {
         protected override void DoTrigger() {
 
             if (prefab != null) {
-                var spawned = Instantiate(prefab, transform.position, Quaternion.identity);
+                var spawned = Instantiate(prefab, GetTriggerPosition(), Quaternion.identity);
                 var link = spawned.gameObject.AddComponent<SequenceSpawnerLink>();
                 link.spawner = this;
+
+                foreach (var item in spawned.GetComponentsInChildren<Item>()) {
+                    item.Step(Time.fixedDeltaTime * triggerDelta);
+                }
+
                 spawnCount++;
             }
         }
-        
+
 #if UNITY_EDITOR
 
         void OnDrawGizmos() {

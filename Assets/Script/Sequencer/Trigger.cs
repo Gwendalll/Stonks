@@ -17,9 +17,11 @@ namespace Sequencer {
         [System.NonSerialized]
         public Sequencer sequencer;
         protected Sequence sequence;
-        // [System.NonSerialized]
+        [System.NonSerialized]
         public Vector3 sequencerPosition;
         protected Vector3 sequencerPositionOld;
+        [System.NonSerialized]
+        public float triggerDelta;
 
         [Header("Gizmos")]
         public bool showLabel = true;
@@ -43,7 +45,7 @@ namespace Sequencer {
             sequencerPositionOld = sequencerPosition;
         }
 
-        void Init() {
+        protected void Init() {
 
             gameObject.name = GetName();
 
@@ -60,10 +62,6 @@ namespace Sequencer {
             }
         }
 
-        void Start() {
-            Init();
-        }
-
         public bool IsInsideSequencer() {
 
             if (sequencer == null) return true;
@@ -72,10 +70,28 @@ namespace Sequencer {
             switch(sequencer.direction) {
                 case ScrollDirection.RIGHT:
                 case ScrollDirection.LEFT:
-                return sequencerPosition.x >= -max && sequencerPosition.x <= max;
+                return sequencerPosition.y >= -max && sequencerPosition.y <= max;
                 case ScrollDirection.UP:
                 case ScrollDirection.DOWN:
-                return sequencerPosition.y >= -max && sequencerPosition.y <= max;
+                return sequencerPosition.x >= -max && sequencerPosition.x <= max;
+            }
+
+            throw new System.Exception("That may not happen!");
+        }
+
+        public bool Passed() {
+
+            if (sequencer == null) return false;
+
+            switch(sequencer.direction) {
+                case ScrollDirection.RIGHT:
+                return sequencerPosition.x - radius <= 0;
+                case ScrollDirection.LEFT:
+                return sequencerPosition.x + radius >= 0; 
+                case ScrollDirection.UP:
+                return sequencerPosition.y - radius <= 0; 
+                case ScrollDirection.DOWN:
+                return sequencerPosition.y + radius >= 0;                 
             }
 
             throw new System.Exception("That may not happen!");
@@ -87,32 +103,68 @@ namespace Sequencer {
 
             switch(sequencer.direction) {
                 case ScrollDirection.RIGHT:
-                return sequencerPosition.x <= radius && sequencerPositionOld.x > radius;
+                return sequencerPosition.x - radius <= 0 && sequencerPositionOld.x - radius > 0;
                 case ScrollDirection.LEFT:
-                return sequencerPosition.x >= -radius && sequencerPositionOld.x < -radius;
+                return sequencerPosition.x + radius >= 0 && sequencerPositionOld.x + radius < 0;
                 case ScrollDirection.UP:
-                return sequencerPosition.y <= radius && sequencerPositionOld.y > radius;
+                return sequencerPosition.y - radius <= 0 && sequencerPositionOld.y - radius > 0;
                 case ScrollDirection.DOWN:
-                return sequencerPosition.y >= -radius && sequencerPositionOld.y < -radius;                
+                return sequencerPosition.y + radius >= 0 && sequencerPositionOld.y + radius < 0;                
             }
 
             throw new System.Exception("That may not happen!");
         }
 
-        void Update() {
+        public Vector3 GetTriggerPosition() {
 
-#if UNITY_EDITOR
-            if (Application.isPlaying == false) {
-                Init();
+            if (sequencer == null) return transform.position;
+
+            var x = transform.position.x;
+            var y = transform.position.y;
+            var sx = sequencer.transform.position.x;
+            var sy = sequencer.transform.position.y;
+            switch(sequencer.direction) {
+                case ScrollDirection.RIGHT:
+                return new Vector3(sx + (radius + offset), y, 0f);
+                case ScrollDirection.LEFT:
+                return new Vector3(sx - (radius + offset), y, 0f);
+                case ScrollDirection.UP:
+                return new Vector3(x, sy + (radius + offset), 0f);
+                case ScrollDirection.DOWN:
+                return new Vector3(x, sy - (radius + offset), 0f);
             }
-#endif
+
+            throw new System.Exception("That may not happen!");
+        }
+
+        void ComputeTriggerDelta() {
+
+            if (sequencer == null) return;
             
+            switch(sequencer.direction) {
+                case ScrollDirection.RIGHT:
+                case ScrollDirection.LEFT:
+                triggerDelta = 1f - (radius - sequencerPositionOld.x) / (sequencerPosition.x - sequencerPositionOld.x);
+                return;
+                case ScrollDirection.UP:
+                case ScrollDirection.DOWN:
+                triggerDelta = 1f - (radius - sequencerPositionOld.y) / (sequencerPosition.y - sequencerPositionOld.y);
+                return;
+            }
+
+            throw new System.Exception("That may not happen!");
+        }
+
+        internal void TriggerUpdate() { 
+            
+            sequencerPositionOld = sequencerPosition;
             sequencerPosition = GetSequencerPosition();
 
             float max = sequencer?.triggerSize / 2 ?? 0f;
             if (IsInsideSequencer()) {
                 if (ShouldTrigger()) {
                     if (Application.isPlaying) {
+                        ComputeTriggerDelta();
                         DoTrigger();
                         SendMessage("OnTriggerSequence", this, SendMessageOptions.DontRequireReceiver);
                     }
@@ -120,61 +172,84 @@ namespace Sequencer {
             }
         }
 
-        void LateUpdate() {
-            sequencerPositionOld = sequencerPosition;
-        }
-
         protected virtual void DoTrigger() {
 
         }
+
+        void Start() {
+            Init();
+        }
+
+        void OnEnable() {
+            if (Application.isPlaying) {
+                Init();
+                sequencer.subscribeTrigger(this);
+            }
+        }
+
+        void OnDisable() {
+            if (Application.isPlaying) {
+                sequencer.unsubscribeTrigger(this);
+            }
+        }
+
+#if UNITY_EDITOR
+        void Update() {
+
+            if (Application.isPlaying == false) {
+                Init();
+            }
+        }
+#endif
 
         public void DrawGizmos() {
 #if UNITY_EDITOR
 
             bool hidePassedSpawner = sequencer?.hidePassedTriggers ?? false;
-            var gizmosColor = sequencer?.gizmosColor ?? Color.red;
 
-            if (true) {
-
-                Gizmos.color = customColor.active ? customColor.color : gizmosColor;
-
-                if (!enabled) {
-                    Gizmos.color = new Color(1f, 1f, 1f, 0.1f);
-                }
-                
-                bool selected = Utils.GetSelected(transform);
-                var positionWithOffset = PositionWithOffset;
-
-                Gizmos.DrawLine(transform.position, positionWithOffset);
-                Gizmos.DrawSphere(transform.position, selected ? 0.15f : 0.1f);
-                if (radius > 0f) {
-                    foreach (var (A, B) in Utils.ChordAround(positionWithOffset, radius)) {
-                        Gizmos.DrawLine(A, B);
-                    }
-                } else if (offset != 0f) {
-                    // draw cross
-                    var crossSize = 0.1f;
-                    var d = new Vector3(crossSize, crossSize, 0);
-                    Gizmos.DrawLine(positionWithOffset - d, positionWithOffset + d);
-                    d = new Vector3(crossSize, -crossSize, 0);
-                    Gizmos.DrawLine(positionWithOffset - d, positionWithOffset + d);
-                }
-                if (showLabel) {
-                    Vector3 cameraPos = Camera.current.WorldToScreenPoint(transform.position);
-                    if (alwaysDisplayLabel || cameraPos.z < 15f) {
-                        string label = GetHandleLabel();
-                        if (shortLabel) {
-                            label = Utils.CapitalsOnly(label);
-                        }
-                        GUIStyle style = new GUIStyle();
-                        style.normal.textColor = Gizmos.color;
-                        Handles.Label(transform.position + Vector3.right * 0.2f, label, style);
-                    }
-                }
-
-                Gizmos.color = new Color(Gizmos.color.r, Gizmos.color.g, Gizmos.color.b, selected ? 0.1f : 0f);
-                Gizmos.DrawMesh(Utils.disc, positionWithOffset, Quaternion.identity, Vector3.one * radius / 0.5f);
+            if (hidePassedSpawner && Passed()) {
+                return;
             }
+
+            var gizmosColor = sequencer?.gizmosColor ?? Color.red;
+            Gizmos.color = customColor.active ? customColor.color : gizmosColor;
+
+            if (!enabled) {
+                Gizmos.color = new Color(1f, 1f, 1f, 0.1f);
+            }
+            
+            bool selected = Utils.GetSelected(transform);
+            var positionWithOffset = PositionWithOffset;
+
+            Gizmos.DrawLine(transform.position, positionWithOffset);
+            Gizmos.DrawSphere(transform.position, selected ? 0.15f : 0.1f);
+            if (radius > 0f) {
+                foreach (var (A, B) in Utils.ChordAround(positionWithOffset, radius)) {
+                    Gizmos.DrawLine(A, B);
+                }
+            } else if (offset != 0f) {
+                // draw cross
+                var crossSize = 0.1f;
+                var d = new Vector3(crossSize, crossSize, 0);
+                Gizmos.DrawLine(positionWithOffset - d, positionWithOffset + d);
+                d = new Vector3(crossSize, -crossSize, 0);
+                Gizmos.DrawLine(positionWithOffset - d, positionWithOffset + d);
+            }
+            if (showLabel) {
+                Vector3 cameraPos = Camera.current.WorldToScreenPoint(transform.position);
+                if (alwaysDisplayLabel || cameraPos.z < 15f) {
+                    string label = GetHandleLabel();
+                    if (shortLabel) {
+                        label = Utils.CapitalsOnly(label);
+                    }
+                    GUIStyle style = new GUIStyle();
+                    style.normal.textColor = Gizmos.color;
+                    Handles.Label(transform.position + Vector3.right * 0.2f, label, style);
+                }
+            }
+
+            Gizmos.color = new Color(Gizmos.color.r, Gizmos.color.g, Gizmos.color.b, selected ? 0.1f : 0f);
+            Gizmos.DrawMesh(Utils.disc, positionWithOffset, Quaternion.identity, Vector3.one * radius / 0.5f);
 #endif
         }
 

@@ -37,43 +37,43 @@ namespace Sequencer {
         }
 
         void DrawRight(float triggerSize) {
+            DrawLabel(Vector3.right * sequenceLength / 2f + Vector3.down * (triggerSize / 2f + 1f));
             DrawRect(Vector3.right * sequenceLength / 2f, new Vector3(sequenceLength, triggerSize, 0));
             GizmosAlpha(0.1f);
             int max = Mathf.FloorToInt(triggerSize / 2f);
             for (int i = -max; i <= max; i++) {
                 Gizmos.DrawLine(new Vector3(0f, i, 0f), new Vector3(sequenceLength, i, 0f));
             }
-            DrawLabel(Vector3.right * sequenceLength / 2f + Vector3.down * (triggerSize / 2f + 1f));
         }
 
         void DrawLeft(float triggerSize) {
+            DrawLabel(Vector3.left * sequenceLength / 2f + Vector3.down * (triggerSize / 2f + 1f));
             DrawRect(Vector3.left * sequenceLength / 2f, new Vector3(sequenceLength, triggerSize, 0));
             GizmosAlpha(0.1f);
             int max = Mathf.FloorToInt(triggerSize / 2f);
             for (int i = -max; i <= max; i++) {
                 Gizmos.DrawLine(new Vector3(-sequenceLength, i, 0f), new Vector3(0, i, 0f));
             }
-            DrawLabel(Vector3.left * sequenceLength / 2f + Vector3.down * (triggerSize / 2f + 1f));
         }
 
         void DrawUp(float triggerSize) {
+            DrawLabel(Vector3.up * sequenceLength / 2f + Vector3.right * (triggerSize / 2f + 1f));
             DrawRect(Vector3.up * sequenceLength / 2f, new Vector3(triggerSize, sequenceLength, 0));
             GizmosAlpha(0.1f);
             int max = Mathf.FloorToInt(triggerSize / 2f);
             for (int i = -max; i <= max; i++) {
                 Gizmos.DrawLine(new Vector3(i, 0f, 0f), new Vector3(i, sequenceLength, 0f));
             }
-            DrawLabel(Vector3.up * sequenceLength / 2f + Vector3.right * (triggerSize / 2f + 1f));
         }
 
         void DrawDown(float triggerSize) {
+            DrawLabel(Vector3.down * sequenceLength / 2f + Vector3.right * (triggerSize / 2f + 1f));
             DrawRect(Vector3.down * sequenceLength / 2f, new Vector3(triggerSize, sequenceLength, 0));
             GizmosAlpha(0.1f);
             int max = Mathf.FloorToInt(triggerSize / 2f);
             for (int i = -max; i <= max; i++) {
                 Gizmos.DrawLine(new Vector3(i, -sequenceLength, 0f), new Vector3(i, 0f, 0f));
             }
-            DrawLabel(Vector3.down * sequenceLength / 2f + Vector3.right * (triggerSize / 2f + 1f));
         }
 
         bool IsSelected => Selection.objects.Contains(gameObject);

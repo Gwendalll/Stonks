@@ -167,8 +167,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
+<<<<<<< HEAD
   offset: -5
   sequencerPosition: {x: 0, y: 10.25, z: 0}
+=======
+  offset: -4
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -262,7 +266,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 0, y: 42, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -332,7 +339,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: -2, y: -62, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -454,7 +464,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: -1, y: 52.39, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -510,7 +523,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 4, y: -12.5, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -525,9 +541,15 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 58928239}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071069, w: 0.7071067}
   m_LocalPosition: {x: 4, y: 36.5, z: 0}
+=======
+  m_GameObject: {fileID: 235578185}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.62, y: 6.88, z: 0}
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 724047478}
@@ -653,7 +675,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: -1, y: -70.5, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -668,9 +693,15 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 105588165}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071069, w: 0.7071067}
   m_LocalPosition: {x: -1, y: 28.5, z: 0}
+=======
+  m_GameObject: {fileID: 264804661}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.1, y: 5.6000004, z: 0}
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1582082102}
@@ -723,7 +754,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 3, y: -59.999996, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -866,7 +900,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: -1, y: -62, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -984,7 +1021,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: -4, y: -62, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1001,7 +1041,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129437578}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -4, y: 37, z: 0}
+=======
+  m_LocalPosition: {x: 0.62, y: 7.5199995, z: 0}
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1582082102}
@@ -1050,9 +1094,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062cb8473dd64024cb61d930c15aeca5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   radius: 0.5
   offset: 0
   sequencerPosition: {x: -4, y: -81, z: 0}
+=======
+  radius: 0
+  offset: -4
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -1122,7 +1171,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: -4, y: -66.5, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -7976,7 +8028,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: -2, y: 52.39, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -8287,7 +8342,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 3, y: -62, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -8422,7 +8480,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 0, y: -59.999996, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -8490,7 +8551,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 7, y: -42, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -8528,6 +8592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2134c04315556d3448a0753f4532173d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   operatorCount: 1
   linearOperators:
   - enabled: 1
@@ -8558,6 +8623,86 @@ MonoBehaviour:
   gizmoColorB: {r: 1, g: 0.1, b: 0.1, a: 1}
   gizmoSortByDistance: 1
 --- !u!4 &1727297876
+=======
+  radius: 0.5
+  offset: 0
+  showLabel: 1
+  alwaysDisplayLabel: 1
+  shortLabel: 0
+  customColor:
+    active: 1
+    color: {r: 1, g: 1, b: 0, a: 1}
+--- !u!1 &963194225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963194228}
+  - component: {fileID: 963194227}
+  - component: {fileID: 963194226}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &963194226
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+--- !u!20 &963194227
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0.03685141, b: 0.09433961, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 100
+  field of view: 17
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &963194228
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8725,7 +8870,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 4, y: -83, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -8793,7 +8941,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 0, y: 31.720001, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -8845,7 +8996,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 4, y: -65, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -8880,7 +9034,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1812187526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 23.720001, z: 0}
+=======
+  m_LocalPosition: {x: 0, y: -0, z: 0}
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1994176407}
@@ -8967,7 +9125,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: -4, y: -67.5, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -9159,7 +9320,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 3, y: -84.5, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -9212,8 +9376,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1b123e75164a4146a3db58316d74b56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   type: 0
 --- !u!114 &1958209061
+=======
+  radius: 0.5
+  offset: 0
+  showLabel: 1
+  alwaysDisplayLabel: 1
+  shortLabel: 0
+  customColor:
+    active: 0
+    color: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &1233857971
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9263,6 +9439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062cb8473dd64024cb61d930c15aeca5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   radius: 0.5
   offset: 0
   sequencerPosition: {x: 0.13, y: 4.7700005, z: 0}
@@ -9275,6 +9452,17 @@ MonoBehaviour:
   prefab: {fileID: 850971958828273910, guid: 863de4a784cf4d64296fc2e853a8e6f0, type: 3}
   spawnCount: 0
 --- !u!4 &1965913625
+=======
+  direction: 2
+  triggerSize: 9
+  velocity: 2
+  timeScale: 1
+  gizmosColor: {r: 1, g: 0.5, b: 1, a: 1}
+  hidePassedTriggers: 1
+  scroll: 0
+  AlignSequences_Spacing: 1
+--- !u!4 &1242101789
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9333,7 +9521,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 3, y: -75, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -9462,7 +9653,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: -3, y: -10.5, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -9657,7 +9851,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 0, y: 50.72, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -9749,7 +9946,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 0.13, y: 4.7700005, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -9892,7 +10092,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 2, y: -7, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -9958,9 +10161,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 062cb8473dd64024cb61d930c15aeca5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   radius: 0
   offset: -5
   sequencerPosition: {x: 3, y: 14.239998, z: 0}
+=======
+  radius: 0.5
+  offset: 0
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 1
   shortLabel: 0
@@ -10016,7 +10224,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: -0.99999994, y: -81.5, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -10110,6 +10321,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2109567887}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 37, z: 0}
@@ -10120,6 +10332,23 @@ Transform:
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2120658726
+=======
+  m_GameObject: {fileID: 1958209058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012a735a056edd04ab53f4ab51f68d87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.5
+  offset: 0
+  showLabel: 1
+  alwaysDisplayLabel: 1
+  shortLabel: 0
+  customColor:
+    active: 0
+    color: {r: 1, g: 0, b: 0, a: 1}
+--- !u!1 &1994176406
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10180,7 +10409,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: -1, y: -80.5, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -10220,7 +10452,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
-  sequencerPosition: {x: 0.13, y: 4.7700005, z: 0}
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
@@ -10275,7 +10506,51 @@ Transform:
   m_Father: {fileID: 1582082102}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &2143648491
+=======
+--- !u!114 &2090841427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090841425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 062cb8473dd64024cb61d930c15aeca5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0
+  offset: -4
+  showLabel: 1
+  alwaysDisplayLabel: 1
+  shortLabel: 0
+  customColor:
+    active: 0
+    color: {r: 1, g: 0, b: 0, a: 1}
+  prefab: {fileID: 4130645917748835430, guid: 2c9a89c5fcc064502b0d654d203cd948, type: 3}
+  spawnCount: 0
+--- !u!1 &2111386725
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2111386728}
+  - component: {fileID: 2111386727}
+  - component: {fileID: 2111386726}
+  m_Layer: 9
+  m_Name: Spawner:Enemy1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2111386726
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10304,7 +10579,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.5
   offset: 0
+<<<<<<< HEAD
   sequencerPosition: {x: 4, y: -59.999996, z: 0}
+=======
+>>>>>>> a603c7795e3434b4cfab4bdbf49f74ac1f8a54c1
   showLabel: 1
   alwaysDisplayLabel: 0
   shortLabel: 0
